@@ -1,0 +1,1055 @@
+<!-------------------------------------------------------------------
+
+ About Page [19]: Heartworm
+ Made by glenthemes
+
+ Release date: 2026/01/09
+ Last updated: 2026/01/09
+
+「 PAGE INFO. 」
+ ❃ Post: glenthemes.tumblr.com/post/805296654593015808
+ ❃ Preview: glenthpvs.tumblr.com/heartworm
+ ❃ Code: glen-themes.gitlab.io/abt-pages/19/heartworm
+ 
+「 HOW TO USE. 」
+ dub.sh/heartworm-guide
+
+「 TERMS OF USE. 」
+ 1) Do not remove the page credit.
+ 2) Do not repost/redistribute my works.
+ 3) Do not take parts of the code and use it as your own.
+ 4) Do not use my pages as a base code.
+ 5) Do not mix my themes together into a new work.
+
+「 CREDITS. 」
+ (o˘◡˘o)～ glencredits.tumblr.com/heartworm
+ 
+-------------------------------------------------------------------->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta property="og:type" content="website">
+<meta http-equiv="content-language" content="en">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="author" content="{Name}">
+<meta name="theme-color" content="{AccentColor}">
+
+<!--++++++++++++++++++++++++++++++-->
+
+<!-- browser/tab title -->
+<title>smilebouquet tls!!</title>
+<meta property="og:title" content="{Name}">
+
+<meta name="description" content="{block:Description}{MetaDescription}{/block:Description}">
+<meta property="og:description" content="{block:Description}{MetaDescription}{/block:Description}">
+
+<!-- browser/tab favicon -->
+<link rel="icon" href="{Favicon}">
+<link rel="apple-touch-icon" sizes="128x128" href="{Favicon}">
+
+<meta property="og:image" content="{Favicon}">
+<meta property="og:image:width" content="128">
+<meta property="og:image:height" content="128">
+
+<!--++++++++++++++++++++++++++++++-->
+
+<!-- google fonts -->
+<link href="https://fonts.bunny.net/css2?family=Funnel+Sans:ital,wght@0,300..800;1,300..800&family=Golos+Text:ital,wght@0,400..900;1,400..900&family=Figtree:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet" crossorigin>
+
+<!-- icon fonts -->
+<link href="https://cdn.jsdelivr.net/gh/Richard9394/MingCute@main/fonts/MingCute.min.css" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/gh/FortAwesome/Font-Awesome@7.x/css/all.min.css" rel="stylesheet">
+
+<!-- heartworm essentials -->
+<link rel="preload" href="https://glen-themes.gitlab.io/abt-pages/19/core.min.css" as="style">
+<link href="https://glen-themes.gitlab.io/abt-pages/19/core.min.css" rel="stylesheet">
+
+<!--++++++++++++++++++++++++++++++-->
+
+<style>
+/*--=================================================
+
+    PLEASE READ THE GUIDE ON HOW TO USE AND EDIT:
+    https://dub.sh/heartworm-guide
+    
+    ANY QUESTIONS, PLEASE ASK:
+    https://discord.gg/RcMKnwz
+    
+=================================================--*/
+
+/*======== CUSTOMIZATION OPTIONS ========*/
+:root {
+    /* background */
+    --Background-Color:#8d7caa;
+    --Background-Image:url("https://64.media.tumblr.com/3d5b7e328717a20e6a90890857583ee7/tumblr_inline_t8igmaantm1qf8af3_500.png"); /* place image url between quotes */
+    --Background-Repeat:repeat; /* repeat [OR] no-repeat */
+    --Background-Size:auto; /* auto [OR] cover */
+
+    /* layout options */
+    --Screen-Gaps:3rem;
+    --Container-Width:650px;
+    --Boxes-Spacing:35px;
+
+    /* main font */
+    --Main-Text-Font-Family:"Funnel Sans";
+    --Main-Text-Font-Weight:normal;
+    --Main-Text-Font-Size:0.925rem;
+    --Main-Text-Line-Height:1.8; /* number only */
+    --Main-Text-Color:#5a5a5a;
+
+    /* bold */
+    --Bold-Font-Weight:600; /* number only */
+    --Bold-Text-Color:#f2992e;
+
+    /* italic */
+    --Italic-Text-Color:#426eaf;
+
+    /* headings */
+    --Heading-Font-Family:"Golos Text";
+    --Heading-Font-Weight:500;
+    --Heading-Font-Size:calc(var(--Main-Text-Font-Size) * 1.420);
+    --Heading-Letter-Spacing:0.035em;
+
+    /* small caps */
+    --Caps-Font-Family:"Figtree";
+    --Caps-Font-Weight:500;
+    --Caps-Font-Size:calc(var(--Main-Text-Font-Size) * 0.85);
+    --Caps-Letter-Spacing:0.035rem;
+    --Caps-Line-Height:var(--Main-Text-Line-Height);
+
+    /* links */
+    --Links-Color:#ff8e8e;
+    --Links-Underline-Gap:0.05em;
+    --Links-Underline-Size:1px;
+    --Links-Underline-Color:#935959;
+
+    --Links-HOVER-Speed:0.35s;
+    --Links-HOVER-Color:#bfc181;
+    --Links-HOVER-Underline-Color:#59673a;
+
+    /* faded text */
+    --Faded-Text-Transparency:30%; /* percentage only */
+
+    /* highlighted text */
+    --Highlighted-Text-BG:#dccbe7;
+    --Highlighted-Text-Color:currentColor;
+
+    /* blockquotes */
+    --Blockquote-Border-Size:3px;
+    --Blockquote-Border-Color:#644b74;
+    --Blockquote-Border-Left-Gap-1:0.35em;
+    --Blockquote-Border-Left-Gap-2:1.15em;
+
+    /* scrollbar (Chrome/Edge/Brave/Opera only) */
+    --Chrome-Scrollbar-Padding:9px;
+    --Chrome-Scrollbar-Thumb-Size:1px;
+    --Chrome-Scrollbar-Thumb:#626c85;
+    --Chrome-Scrollbar-Track:#3c3e47;
+    --Chrome-Scrollbar-BG:var(--Background-Color);
+
+    /* header profile picture */
+    --Header-Profile-Pic-Size:100px;
+    --Header-Profile-Pic-Rounded-Corners:100%;
+    --Header-Profile-Pic-Border-Thickness:10px;
+
+    --Header-Profile-Pic-Size-ON-SMALL-SCREENS:17vw;
+    --Header-Profile-Pic-Border-Thickness-ON-SMALL-SCREENS:1.85vw;
+
+    /* header status */
+    --Header-Status-Left-Gap:13px;
+    --Header-Status-Border-Size:1px;
+    --Header-Status-Border-Color:#644b74;
+    --Header-Status-Padding-X:0.8rem;
+    --Header-Status-Padding-Y:0.6rem;
+    --Header-Status-BG:#f9f1ff;
+    --Header-Status-Font-Size:var(--Main-Text-Font-Size);
+    --Header-Status-Text-Color:#5a5a5a;
+    --Header-Status-Shadow-X-Offset:0.25rem;
+    --Header-Status-Shadow-Y-Offset:0.25rem;
+    --Header-Status-Shadow-Size:0.35rem;
+    --Header-Status-Shadow-Color:#43324e;
+    --Header-Status-Shadow-Strength:85%; /* percentage only */
+
+    /* header status - bubbles */
+    --Header-Status-Bubble-Size-1:8px;
+    --Header-Status-Bubble-Size-2:12px;
+
+    /* header username */
+    --Header-Username-Top-Gap:0.55rem;
+    --Header-Username-Font-Weight:650;
+    --Header-Username-Font-Size:calc(var(--Main-Text-Font-Size) - 1px);
+    --Header-Username-Color:#5a5a5a;
+
+    /* header links */
+    --Header-Links-Icons-Border-Size:1px;
+    --Header-Links-Icons-Border-Color:#644b74;
+    --Header-Links-Icons-Rounded-Corners:5px;
+    --Header-Links-Icons-Padding:0.5rem;
+    --Header-Links-Icons-BG:#f9f1ff;
+    --Header-Links-Icons-Size:1.05rem;
+    --Header-Links-Icons-Color:#5a5a5a;
+    --Header-Links-Icons-Shadow-X-Offset:0.25rem;
+    --Header-Links-Icons-Shadow-Y-Offset:0.25rem;
+    --Header-Links-Icons-Shadow-Size:0.35rem;
+    --Header-Links-Icons-Shadow-Color:#43324e;
+    --Header-Links-Icons-Shadow-Strength:85%; /* percentage only */
+    --Header-Links-Icons-Hover-Speed:0.25s;
+    --Header-Links-Icons-Hover-Zoom-Percentage:15%; /* percentage only */
+    --Header-Links-Icons-Spacing:0.55rem;
+
+    --Header-Links-Icons-HOVER-Border-Color:#644b74;
+    --Header-Links-Icons-HOVER-BG:#f9f1ff;
+    --Header-Links-Icons-HOVER-Color:#59673a;
+
+    --Header-Links-Hover-Text-Margin:0.69rem;
+    --Header-Links-Hover-Text-Border-Size:1px;
+    --Header-Links-Hover-Text-Border-Color:#644b74;
+    --Header-Links-Hover-Text-Rounded-Corners:5px;
+    --Header-Links-Hover-Text-Padding-X:0.5rem;
+    --Header-Links-Hover-Text-Padding-Y:0.5rem;
+    --Header-Links-Hover-Text-BG:#f9f1ff;
+    --Header-Links-Hover-Text-Font-Size:calc(var(--Caps-Font-Size) - 1px);
+    --Header-Links-Hover-Text-Color:#5a5a5a;
+    --Header-Links-Hover-Speed:0.4s;
+    
+    /* boxes */
+    --Boxes-Rounded-Corners:14px;
+    --Boxes-BG:#efebf7;
+    --Boxes-Padding:18px;
+    --Boxes-Shadow-X-Offset:0.5rem;
+    --Boxes-Shadow-Y-Offset:0.5rem;
+    --Boxes-Shadow-Size:0.7rem;
+    --Boxes-Shadow-Color:#43324e;
+    --Boxes-Shadow-Strength:85%; /* percentage only */
+    --Boxes-Text-Color:#5a5a5a;
+
+    /* box headings */
+    --Box-Heading-Border-Size:1px;
+    --Box-Heading-Border-Color:#644b74;
+    --Box-Heading-Padding-X:0.8rem;
+    --Box-Heading-Padding-Y:0.6rem;
+    --Box-Heading-BG:#f9f1ff;
+    --Box-Heading-Font-Size:calc(var(--Main-Text-Font-Size) * 0.875);
+    --Box-Heading-Text-Color:#5a5a5a;
+    --Box-Heading-Shadow-X-Offset:0.25rem;
+    --Box-Heading-Shadow-Y-Offset:0.25rem;
+    --Box-Heading-Shadow-Size:0.35rem;
+    --Box-Heading-Shadow-Color:#43324e;
+    --Box-Heading-Shadow-Strength:85%; /* percentage only */
+
+    /* box contents - icon bullet lists */
+    --Icon-Bullets-Size:calc(var(--Main-Text-Font-Size) + 2px);
+    --Icon-Bullets-Color:#b0a9a1;
+    --Icon-Bullets-Gutter:0.6em;
+
+    --Bullet-List-Label-Padding-X:6px;
+    --Bullet-List-Label-Padding-Y:4px;
+    --Bullet-List-Label-BG:#f9f1ff;
+    --Bullet-List-Label-Rounded-Corners:7px;
+    --Bullet-List-Label-Font-Size:calc(var(--Caps-Font-Size) - 0.5px);
+    --Bullet-List-Label-Text-Color:#59673a;
+
+    --Bullet-List-Rows-Spacing:0.35em;
+
+}/* end root - don't delete this line */
+
+/*----- BASICS -----*/
+body {
+    margin:0;
+    background:var(--Background-Color) var(--Background-Image) var(--Background-Repeat) fixed center / var(--Background-Size,auto);
+    font:var(--Main-Text-Font-Weight,normal) var(--Main-Text-Font-Size,0.9rem)/var(--Main-Text-Line-Height,1.5) var(--Main-Text-Font-Family), sans-serif;
+    color:var(--Main-Text-Color);
+}
+
+img { max-width:100% }
+
+/* bold */
+b, strong, b.caps {
+    font-weight:var(--Bold-Font-Weight);
+    color:var(--Bold-Text-Color);
+}
+
+/* bold :: small caps */
+b.caps {
+    font-weight:min(calc(var(--Bold-Font-Weight,600) + 100),800);
+}
+
+b.label {
+    font-weight:var(--Bold-Font-Weight)!important;
+}
+
+/* italics */
+i:not([class]), em:not([class]){
+    color:var(--Italic-Text-Color);
+}
+
+/* blockquotes */
+blockquote:not(.header-status blockquote){
+    position:relative;
+    margin-inline:0;
+    padding-left:calc(var(--Blockquote-Border-Size) + var(--Blockquote-Border-Left-Gap-1) + var(--Blockquote-Border-Left-Gap-2));
+}
+
+blockquote:not(.header-status blockquote):before {
+    content:"";
+    position:absolute;
+    top:0;left:0;
+    margin-left:var(--Blockquote-Border-Left-Gap-1);
+    width:var(--Blockquote-Border-Size);
+    height:100%;
+    background:var(--Blockquote-Border-Color);
+    border-radius:calc(var(--Blockquote-Border-Size) / 2);
+}
+
+/* faded text */
+.faded:not(a > .faded, i:not([class] > .faded), b:not([class] > .faded)){
+    color:rgb(from var(--Boxes-Text-Color,#000) r g b / calc(100% - var(--Faded-Text-Transparency)));
+}
+
+/*----- HEADINGS -----*/
+h1, h2, h3 {
+    font-family:var(--Heading-Font-Family);
+    font-weight:var(--Heading-Font-Weight);
+    font-size:calc(var(--Main-Text-Font-Size) + 1px);
+    text-transform:uppercase;
+    letter-spacing:var(--Heading-Letter-Spacing);
+}
+
+h1 {
+    font-size:var(--Heading-Font-Size);
+}
+
+/*----- SMALL CAPS -----*/
+.caps, b.label, .hover-label {
+    font:var(--Caps-Font-Weight,normal) var(--Caps-Font-Size,0.9rem)/var(--Caps-Line-Height,1.5) var(--Caps-Font-Family), sans-serif;
+    text-transform:uppercase;
+    letter-spacing:var(--Caps-Letter-Spacing);
+}
+
+/*----- LINKS -----*/
+a[href]:not([href=""],:has(>*:not(span))){
+    color:var(--Links-Color);
+    padding-bottom:var(--Links-Underline-Gap);
+    border-bottom:var(--Links-Underline-Size) solid var(--Links-Underline-Color);
+    transition:all var(--Links-HOVER-Speed) ease-in-out;
+}
+
+a[href]:not([href=""],:has(>*:not(span))):hover {
+    color:var(--Links-HOVER-Color);
+    border-color:var(--Links-HOVER-Underline-Color);
+}
+
+/*----- SCROLLBAR -----*/
+/*  Chrome/Edge/Brave/Opera only */
+::-webkit-scrollbar {
+    width:calc((var(--Chrome-Scrollbar-Padding) * 2) + var(--Chrome-Scrollbar-Thumb-Size));
+    height:calc((var(--Chrome-Scrollbar-Padding) * 2) + var(--Chrome-Scrollbar-Thumb-Size));
+    background:transparent;
+}
+ 
+::-webkit-scrollbar-thumb {
+    background-clip:padding-box;
+    background-color:var(--Chrome-Scrollbar-Thumb);
+    border:var(--Chrome-Scrollbar-Padding) solid transparent;
+}
+
+::-webkit-scrollbar-corner {
+    background:transparent;
+}
+
+/* firefox only */
+@-moz-document url-prefix(){
+    * {
+        scrollbar-width:thin;
+    }
+}
+
+/*----- TEXT HIGHLIGHT -----*/
+::selection {
+    background:var(--Highlighted-Text-BG);
+    color:var(--Highlighted-Text-Color);
+}
+
+::-moz-selection {
+    background:var(--Highlighted-Text-BG);
+    color:var(--Highlighted-Text-Color);
+}
+
+/*----- CONTAINER -----*/
+.page-cont {
+    position:absolute;
+    top:0;left:0;right:0;
+    min-height:100vh;
+    display:flex;
+    flex-flow:column nowrap;
+    align-items:center;
+    margin-inline:auto;
+    width:clamp(var(--Container-Min-Width),var(--Container-Width),var(--Container-Max-Width));
+}
+
+@supports(width:fit-content){
+    .page-cont {
+        width:fit-content;
+        max-width:min(var(--Container-Width),var(--Container-Max-Width));
+    }
+}
+
+main {
+    display:flex;
+    flex-flow:column nowrap;
+    gap:var(--Grid-Spacing);
+    width:100%;
+    max-width:100%;
+    filter:drop-shadow(var(--Boxes-Shadow-X-Offset) var(--Boxes-Shadow-Y-Offset) var(--Boxes-Shadow-Size) rgb(from var(--Boxes-Shadow-Color,#000) r g b / var(--Boxes-Shadow-Strength,100%)));
+}
+
+/*----- HEADER -----*/
+header {
+    position:relative;
+    border-radius:var(--Boxes-Rounded-Corners);
+    background:var(--Boxes-BG);
+    z-index:2;
+}
+
+.header-inner {
+    position:relative;
+    z-index:0;
+}
+
+/*----- HEADER :: UPPER DECK -----*/
+.header-top-hug {
+    position:relative;
+    border-radius:var(--Boxes-Rounded-Corners) var(--Boxes-Rounded-Corners) 0 0;
+    overflow:hidden;
+    z-index:0;
+}
+
+.header-top-hug img {
+    display:block;
+    width:100%;
+    max-width:100%;
+    object-fit:cover;
+    object-position:center;
+}
+
+/*----- HEADER :: LOWER DECK -----*/
+.header-bot-hug {
+    position:relative;
+    display:flex;
+    flex-flow:row wrap;
+    gap:var(--Header-Status-Left-Gap,0px);
+    margin-left:var(--Boxes-Padding);
+    margin-right:calc(var(--Boxes-Padding) + (var(--Header-PFP-Border-Thickness) / 2));
+    z-index:1;
+}
+
+.header-bot-hug:not(:first-child){
+    margin-top:calc(var(--Header-Profile-Pic-Total-Size) / -2);
+}
+
+/*----- HEADER :: LEFT -----*/
+.header-icon-hug {
+    position:relative;
+    margin-bottom:calc(var(--Boxes-Padding) - var(--Header-PFP-Border-Thickness) + (var(--Header-Links-Icons-Total-Size) / 2));
+    width:var(--Header-Profile-Pic-Total-Size);
+    height:var(--Header-Profile-Pic-Total-Size);
+    border-radius:var(--Header-Profile-Pic-Rounded-Corners);
+    background:var(--Boxes-BG);
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    overflow:hidden;
+    flex-shrink:0;
+    z-index:0;
+}
+
+.header-icon-hug img {
+    display:block;
+    width:var(--Header-PFP-Size);
+    height:var(--Header-PFP-Size);
+    border-radius:var(--Header-Profile-Pic-Rounded-Corners);
+    object-fit:cover;
+    object-position:center;
+}
+
+/*----- HEADER :: MID + RIGHT -----*/
+.header-mdrr-hug {
+    margin-top:calc((var(--Header-Profile-Pic-Total-Size) / 2) - (var(--Header-Status-Single-Line-Height) / 2));
+    flex:1;
+    gap:var(--Header-Status-Left-Gap,0px);
+    align-items:flex-start;
+    display:flex;
+    flex-flow:row wrap;
+}
+
+/*----- HEADER :: MID -----*/
+.header-mid-hug {
+    position:relative;
+    display:flex;
+    flex-direction:column;
+    align-items:flex-start;
+}
+
+/*----- HEADER STATUS -----*/
+.header-status {
+    position:relative;
+    border:var(--Header-Status-Border-Size) solid var(--Header-Status-Border-Color);
+    border-radius:var(--Header-Status-Rounded-Corners);
+    padding:calc(var(--Header-Status-Padding-Y) - var(--Main-Text-LH-V-Gap)) var(--Header-Status-Padding-X);
+    --ts:calc(var(--Header-Status-Padding-X) + 2px + var(--Header-Status-Bubble-Total-Size-2));
+    min-width:calc((var(--ts) * 2) - var(--Header-Status-Left-Gap,0px));
+    background:var(--Header-Status-BG);
+    font-size:var(--Header-Status-Font-Size);
+    color:var(--Header-Status-Text-Color);
+    filter:drop-shadow(var(--Header-Status-Shadow-X-Offset) var(--Header-Status-Shadow-Y-Offset) var(--Header-Status-Shadow-Size) rgb(from var(--Header-Status-Shadow-Color,#000) r g b / var(--Header-Status-Shadow-Strength,100%)));
+    text-align:left;
+}
+
+.header-status.caps {
+    padding:calc(var(--Header-Status-Padding-Y) - var(--Caps-LH-V-Gap)) var(--Header-Status-Padding-X);
+}
+
+.header-status:not(.caps) blockquote {
+    margin-top:-1px;
+}
+
+/*----- HEADER USERNAME -----*/
+.header-username {
+    margin-top:var(--Header-Username-Top-Gap);
+    margin-left:calc(var(--Header-Status-Border-Size) + var(--Header-Status-Padding-X));
+    font-size:var(--Header-Username-Font-Size,var(--Main-Text-Font-Size));
+    font-weight:var(--Header-Username-Font-Weight,400);
+    color:var(--Header-Username-Color);
+}
+
+
+/* @ symbol */
+.header-username > span:first-child:before {
+    content:"@";
+    margin-right:calc(var(--Header-Username-Font-Size,var(--Main-Text-Font-Size)) * -0.1);
+    font-family:"Asimovian", sans-serif;
+}
+
+/*----- HEADER LINKS -----*/
+.header-right-hug {
+    align-self:flex-start;
+    margin-bottom:calc(var(--Header-Links-Icons-Total-Size) / -2);
+    margin-left:auto;
+    flex:1;
+}
+
+.header-links {
+    display:flex;
+    flex-flow:row wrap;
+    justify-content:flex-end;
+    gap:var(--Header-Links-Icons-Spacing);
+    filter:drop-shadow(var(--Header-Links-Icons-Shadow-X-Offset) var(--Header-Links-Icons-Shadow-Y-Offset) var(--Header-Links-Icons-Shadow-Size) rgb(from var(--Header-Links-Icons-Shadow-Color,#000) r g b / var(--Header-Links-Icons-Shadow-Strength,100%)));
+}
+
+.header-links > li {
+    position:relative;
+}
+
+.header-links [role="menuitem"]{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    width:var(--Header-Links-Icons-Total-Size);
+    height:var(--Header-Links-Icons-Total-Size);
+    border:var(--Header-Links-Icons-Border-Size) solid var(--Header-Links-Icons-Border-Color);
+    border-radius:var(--Header-Links-Icons-Rounded-Corners);
+    background:var(--Header-Links-Icons-BG);
+    color:var(--Header-Links-Icons-Color);
+    transition:all var(--Header-Links-Icons-Hover-Speed) ease-in-out;
+}
+
+.header-links [role="menuitem"] i[class]:not([class=""]){
+    font-size:var(--Header-Links-Icons-Size);
+}
+
+.header-links [role="menuitem"] i[class^="mgc_"]{
+    font-size:calc(var(--Header-Links-Icons-Size) + 1px)!important;
+}
+
+.header-links [role="menuitem"]:hover {
+    border-color:var(--Header-Links-Icons-HOVER-Border-Color);
+    background:var(--Header-Links-Icons-HOVER-BG);
+    color:var(--Header-Links-Icons-HOVER-Color);
+    transform:scale(calc(100% + var(--Header-Links-Icons-Hover-Zoom-Percentage,0%)),calc(100% + var(--Header-Links-Icons-Hover-Zoom-Percentage,0%)));
+}
+
+.header-links .hover-label {
+    position:absolute;
+    top:100%;left:50%;
+    transform:translateX(-50%);
+    margin-top:var(--Header-Links-Hover-Text-Margin);
+    border:var(--Header-Links-Hover-Text-Border-Size) solid var(--Header-Links-Hover-Text-Border-Color);
+    border-radius:var(--Header-Links-Hover-Text-Rounded-Corners);
+    padding:calc(var(--Header-Links-Hover-Text-Padding-Y) - var(--Caps-LH-V-Gap)) var(--Header-Links-Hover-Text-Padding-X);
+    background:var(--Header-Links-Hover-Text-BG);
+    font-size:var(--Header-Links-Hover-Text-Font-Size);
+    color:var(--Header-Links-Hover-Text-Color);
+    text-align:center;
+    white-space:nowrap;
+    max-width:400px;
+    overflow:hidden;
+    text-overflow:ellipsis;
+    opacity:0;
+    visibility:hidden;
+    transition:opacity var(--Header-Links-Hover-Speed) ease-in-out, visibility 0s var(--Header-Links-Hover-Speed) ease-in-out;
+    z-index:2;
+}
+
+.header-links [role="menuitem"]:hover + .hover-label {
+    visibility:visible;
+    opacity:1;
+    transition:opacity var(--Header-Links-Hover-Speed) ease-in-out, visibility 0s 0s ease-in-out;
+}
+
+/*----- BOXES GRID -----*/
+/* boxes UNDERNEATH the main header box */
+.boxes-grid {
+    position:relative;
+    display:grid;
+    grid-template-columns:repeat(2,1fr);
+    gap:var(--Grid-Spacing);
+}
+
+/*----- BOXES -----*/
+.box[full-width="yes"]{
+    grid-column-end:span 2;
+}
+
+.box {
+    position:relative;
+    background:var(--Boxes-BG);
+    border-radius:var(--Boxes-Rounded-Corners);
+    padding:var(--Boxes-Padding);
+    color:var(--Boxes-Text-Color);
+    z-index:0;
+}
+
+/*----- BOXES :: HEADINGS -----*/
+.box-heading {
+    position:relative;
+    margin-left:-2px;
+    font-size:var(--Box-Heading-Font-Size);
+    color:var(--Box-Heading-Text-Color);
+    filter:drop-shadow(var(--Box-Heading-Shadow-X-Offset) var(--Box-Heading-Shadow-Y-Offset) var(--Box-Heading-Shadow-Size) rgb(from var(--Box-Heading-Shadow-Color,#000) r g b / var(--Box-Heading-Shadow-Strength,100%)));
+}
+
+.box-heading:first-child:has(> span),
+.popup-inner .box-heading:first-child:has(> span){
+    margin-top:calc(0px - var(--Boxes-Padding) - (var(--Box-Heading-Single-Line-Height) / 2));
+}
+
+.box-heading:not(:last-child):has(> span),
+.popup-inner .box-heading:not(:last-child):has(> span){
+    margin-bottom:var(--Box-Heading-Bottom-Gap);
+}
+
+.box-heading > span {
+    display:inline-block;
+    vertical-align:middle;
+    border:var(--Box-Heading-Border-Size) solid var(--Box-Heading-Border-Color);
+    border-radius:var(--Box-Heading-Rounded-Corners);
+    padding:calc(var(--Box-Heading-Padding-Y) - var(--Main-Text-LH-V-Gap)) var(--Box-Heading-Padding-X);
+    background:var(--Box-Heading-BG);
+}
+
+/*----- BOXES :: ICON BULLET LISTS -----*/
+.icon-bullets {
+    margin:0;
+    padding:0;
+    list-style:none;
+
+    display:flex;
+    flex-flow:column nowrap;
+    gap:var(--Bullet-List-Rows-Spacing);
+}
+
+.icon-bullets li {
+    position:relative;
+}
+
+.icon-bullets li:has(> i[class]:not([class=""])){
+    padding-left:calc(var(--Icon-Bullets-Size) + var(--Icon-Bullets-Gutter));
+}
+
+.icon-bullets li i[class]:not([class=""]){
+    position:absolute;
+    top:0;left:0;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    width:var(--Icon-Bullets-Size);
+    height:calc(var(--Main-Text-Font-Size) * var(--Main-Text-Line-Height) + var(--Main-Text-Line-Height-Vertical-Align-Adjust));
+    font-size:var(--Icon-Bullets-Size);
+    color:var(--Icon-Bullets-Color);
+}
+
+.icon-bullets li i[class^="fa-"]{
+    font-size:calc(var(--Icon-Bullets-Size) - 2px)!important;
+}
+
+b.label {
+    padding:var(--Bullet-List-Label-Padding-Y) var(--Bullet-List-Label-Padding-X);
+    background:var(--Bullet-List-Label-BG);
+    border-radius:var(--Bullet-List-Label-Rounded-Corners);
+    font-size:var(--Bullet-List-Label-Font-Size)!important;
+    color:var(--Bullet-List-Label-Text-Color);
+}
+
+b.label:has(+ *){
+    margin-right:2px;
+}
+
+b.label + :is(a,b,i,em,span):before {
+    content:" ";
+}
+
+b.label + .detail:is(p,ul,ol,h1,h2,h3,h4,h5,h6,blockquote){
+    margin-top:var(--Bullet-List-Rows-Spacing);
+}
+
+/*----- ASK POPUP -----*/
+dialog .popup-inner {
+    border-radius:var(--Boxes-Rounded-Corners);
+    filter:drop-shadow(var(--Boxes-Shadow-X-Offset) var(--Boxes-Shadow-Y-Offset) var(--Boxes-Shadow-Size) rgb(from var(--Boxes-Shadow-Color,#000) r g b / var(--Boxes-Shadow-Strength,100%)));
+    overflow:initial;
+}
+
+dialog .popup-inner:has(> .box-heading:first-child){
+    margin-top:calc(var(--Box-Heading-Single-Line-Height) / 2);
+}
+
+dialog .popup-inner .box-heading {
+    max-width:100%;
+    white-space:nowrap;
+}
+
+dialog .popup-inner .box-heading > span {
+    max-width:100%;
+    overflow:hidden;
+    text-overflow:ellipsis;
+}
+
+dialog .popup-inner .box-heading br {
+    display:none;
+}
+
+dialog .popup-inner .box-contents {
+    max-height:calc(var(--Popup-Max-Height,85vh) - var(--Box-Heading-Bottom-Gap) - (var(--Popup-Padding) * 2));
+    overflow:auto;
+}
+
+iframe[dim-the-askbox="yes"]{
+    filter:brightness(85%) contrast(125%);
+}
+
+</style><!--don't delete this line-->
+
+</head>
+
+<!--++++++++++++++++++++++++++++++-->
+
+<body>
+
+<!--=================================================
+
+    PLEASE READ THE GUIDE ON HOW TO USE AND EDIT:
+    https://dub.sh/heartworm-guide
+    
+    ANY QUESTIONS, PLEASE ASK:
+    https://discord.gg/RcMKnwz
+    
+==================================================-->
+
+<div class="page-cont">
+<main>
+
+<!--======= HEADER =======-->
+<header>
+    <div class="header-inner">
+        <div class="header-top-hug">
+
+            <!--++++++ HEADER IMAGE ++++++-->
+            <img src="https://file.garden/ZpbncQeDJ0qCfni8/tl-blog%20use/white-hydrangea-cropped" alt="Banner">
+
+        </div><!--don't delete this line-->
+        
+        <div class="header-bot-hug">
+            <div class="header-icon-hug">
+
+                <!--++++++ HEADER ICON ++++++-->
+                <img src="https://file.garden/ZpbncQeDJ0qCfni8/tl-blog%20use/icontest.jpg" alt="Avatar">
+
+            </div><!--don't delete this line-->
+
+            <div class="header-mdrr-hug">
+                <div class="header-mid-hug">
+                    <div class="header-status">
+                        <blockquote>
+
+                            <!--++++++ HEADER STATUS ++++++-->
+                            <!-- please keep it short -->
+                            <i>jp→en hobby translator!</i>
+
+                        </blockquote><!--don't delete this line-->
+                    </div><!--don't delete this line-->
+
+                    <div class="header-username caps">
+                        <span>
+
+                            <!--++++++ HEADER USERNAME ++++++-->
+                            smilebouquet
+
+                        </span><!--don't delete this line-->
+                    </div><!--don't delete this line-->
+                </div><!--don't delete this line-->
+
+                <nav class="header-right-hug">
+                    <ul class="header-links" role="menu">
+                        
+                        <!--++++++ HEADER LINKS ++++++-->
+                        <!-- looks best under 8 links -->
+
+                        <!-- start a link -->
+                        <li role="presentation">
+                            <a href="/" role="menuitem">
+                                <i class="mgc_home_3_line"></i>
+                            </a>
+
+                            <span class="hover-label">Home</span>
+                        </li><!--end a link-->
+
+                        <!-- start a link -->
+                        <li role="presentation">
+                            <a href="/" role="menuitem">
+                                <i class="mgc_book_2_line"></i>
+                            </a>
+
+                            <span class="hover-label">Directory</span>
+                        </li><!--end a link-->
+
+                        <!-- start a link -->
+                        <li role="presentation">
+                            <a href="https://x.com/smilebouquet" role="menuitem">
+                                <i class="mgc_twitter_line"></i>
+                            </a>
+
+                            <span class="hover-label">Twitter</span>
+                        </li><!--end a link-->
+
+			<!-- start a link -->
+                        <li role="presentation">
+                            <a href="https://marshmallow-qa.com/ldbh2du8cxou2z9?t=gV5m3m&utm_medium=url_text&utm_source=promotion" role="menuitem">
+                                <i class="mgc_mail_line"></i>
+                            </a>
+			<span class="hover-label">Askbox</span>
+			</li>
+
+                        <!---- PAGE CREDIT :: PLEASE DO NOT REMOVE <3 ---->
+                        <!-- if you have questions please ask me! (https://discord.gg/RcMKnwz) -->
+                        <li role="presentation">
+                            <a href="https://glenthemes.tumblr.com" role="menuitem">
+                                <i class="gt-misc-icons" icon-name="gt-3"></i>
+                            </a>
+
+                            <span class="hover-label">&lobrk; Heartworm &robrk;&ensp;page by glenthemes</span>
+                        </li><!--end thm credit-->
+
+                    </ul><!--end all header links-->
+                </nav><!--end header-right-hug-->
+            </div><!--end header-mdrr-hug-->
+        </div><!--end header-bot-hug-->
+    </div><!--end header-inner-->
+</header><!--end header-->
+
+<!--++++++++++++++++++++++++++++++-->
+
+<!--======= BOXES GRID =======-->
+<div class="boxes-grid">
+
+    <!--++++++ START A BOX ++++++-->
+    <section class="box" full-width="no">
+        <h2 class="box-heading">
+            <span>
+
+            <!---- BOX HEADING ---->
+            About me
+
+            </span>
+        </h2>
+
+        <div class="box-contents">
+            <!---- BOX CONTENTS ---->
+
+            <ul class="icon-bullets">
+            
+                <li>
+                    <i class="mgc_wave_hand_line"></i>
+                    <b class="label">Name:</b>
+                    <span class="detail">
+                        Nayo
+                </li>
+
+                <li>
+                    <i class="mgc_birthday_2_line"></i>
+                    <b class="label">Age:</b>
+                    <span class="detail">
+                        20+
+                    </span>
+                </li>
+		<li>
+                    <i class="mgc_user_3_line"></i>
+                    <b class="label">Pronouns:</b>
+                    <span class="detail">
+                        she/her
+		    </span>
+		</li>
+
+            </ul><!--end bullet list-->
+        </div><!--end box's contents-->
+    </section><!--end a box-->
+
+    <!--++++++ START A BOX ++++++-->
+    <section class="box" full-width="no">
+    <h2 class="box-heading">
+        <span>
+
+        <!---- BOX HEADING ---->
+        Enstars Favourites
+
+        </span>
+    </h2>
+
+    <div class="box-contents">
+        <!---- BOX CONTENTS ---->
+
+        <ul class="icon-bullets">
+        
+            <li>
+                <i class="mgc_leaf_3_line"></i>
+                <b class="label">Characters:</b>
+                <span class="detail">
+                    Hinata, Tsukasa
+                </span>
+            </li>
+            
+            <li>
+                <i class="mgc_leaf_3_line"></i>
+                <b class="label">Units:</b>
+                <span class="detail">
+                    2wink, Switch
+                </span>
+            </li>
+
+            <li>
+                <i class="mgc_leaf_3_line"></i>
+                <b class="label">Song:</b>
+                <span class="detail">
+                    Wonder Wonder Toy Land
+                </span>
+            </li>
+            
+        </ul><!--end bullet list-->
+    </div><!--end box's contents-->
+    </section><!--end a box-->
+
+    <!--++++++ START A BOX ++++++-->
+    <section class="box" full-width="yes">
+        <h2 class="box-heading">
+            <span>
+
+            <!---- BOX HEADING ---->
+            About this website
+
+            </span>
+        </h2>
+
+        <div class="box-contents">
+            <!---- BOX CONTENTS ---->
+
+	    <p>
+                hello, and welcome! i made this website to host all my translations.
+	    </p>
+	    <p>
+		currently, i'm focusing on translating enstars songs! i really enjoy reading matsui youhei and codama saori's lyrics, so their work will make up the majority of what i post. i occasionally translate enstars stories as well (hinata focus), not to mention songs/stories outside of enstars. i'd like to post my own translations of certain prsk stories too someday :)
+	    </p>
+	    <p>
+		if you catch any mistakes in my translations (e.g. typos, grammatical errors or mistranslations), send me an ask and i will fix it as soon i can.
+            </p>
+            
+        </div><!--end box's contents-->    
+    </section><!--end a box-->
+<section class="box" full-width="yes">
+        <h2 class="box-heading">
+            <span>
+
+            <!---- BOX HEADING ---->
+            Terms of Service
+
+            </span>
+        </h2>
+
+        <div class="box-contents">
+            <!---- BOX CONTENTS ---->
+	    <b>Do:</b>
+		<ul style=" margin-top: -4px;">
+		<li>
+		     post screenshots/snippets of my work for live-blogging purposes
+		</li>
+		<li>
+		     use my translations for transformative works (fics, analyses, art, etc.)
+		</li>
+		<li>
+		     use parts of my work on social media (e.g. bio, display name, carrd, etc.)
+		</li>
+	    </ul>
+
+            <b>
+		Don't:
+	    </b>
+	    	<ul style=" margin-top: -4px;">
+		<li>
+		     repost my works without my permission (this includes wikis)
+		</li>
+		<li>
+		     modify my work in any way. this includes making image edits with altered text or altering the text when using it for transformative purposes
+		</li>
+		<li>
+		     use my translations in quote bots
+		</li>
+		<li>
+		     use my work for training any AI whatsoever. this includes but is not limited to generative AI or character AI
+		</li>
+	     </ul>
+		<b>
+		Ask first:
+	    </b>
+	    	<ul style=" margin-top: -4px;">
+		<li>
+		     if you want to use my translations to sub clips or videos
+		</li>
+		<li>
+		     if you want to link my translations in a public masterlist (private ones are okay)
+		</li>
+
+	     <p>
+		credit is always appreciated! when crediting, please use the name <b>"nayo"</b> and link back to this website.</b>
+	     </p>
+        </div><!--end box's contents-->    
+    </section><!--end a box-->
+
+</div><!--end boxes-grid (end all boxes)-->
+</main><!--end main-->
+</div><!--end page-cont-->
+
+
+</body>
+</html>
