@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css2?family=Baskervville:ital@0;1&family=Cabin+Sketch:wght@400;700&family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Rubik+Dirt&family=Special+Elite&family=Zain:ital,wght@0,200;0,300;0,400;0,700;0,800;0,900;1,300;1,400&family=Birthstone&family=Dancing+Script:wght@400..700&family=Great+Vibes&family=Imperial+Script&family=Mea+Culpa&family=Rochester&display=swap");
+@font-face {
+  font-family:'nyquil';
+  src: url('/loads/fonts/NyQuil.ttf');
+}
+
+:root {
+--dmtext: #eeeeee;
+
+--background: #f6f6f6;
+--bgcolor: #F0F0F0;
+--text: #323335;
+--dark: #892046;
+--med: #d48d9b;
+--medtl: #cc7c8f;
+--light: #eec5c8;
+--bg: #f7c9cf;
+
+--box-shadow: 2px 2px rgba(0, 0, 0, 0.05);
+--borders: 1px solid var(--light);
+--normcursor: url(https://i.imgur.com/xkjx127.png),auto;
+--pointcursor: url(https://i.imgur.com/v1CiAf5.png),auto;
+--textcursor: url(https://i.imgur.com/ZXiZVxp.png),auto;
+
+--fancytxt: "Great Vibes", cursive;
+}
+
+body{
+background-color: #96244e;
+background-image: url('https://i.imgur.com/lXAJ1nH.png');
+background-position: 50% 39%;
+background-repeat: repeat;
+/*background-size: cover;*/
+background-attachment: fixed;
+scrollbar-color: var(--med) transparent;
+cursor: var(--normcursor);
+}
+a, .chb, .noch, td a, .q-esevent-sidelist img, .q-esevent-side img, [data-title] {
+  cursor: var(--pointcursor);
+}
+p, li {
+  cursor: var(--textcursor);
+}
+
+hr {
+  background-image: url("https://i.imgur.com/sgEeTIq.png");
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width:255px;
+  height:auto;
+  border-top: 14px solid transparent;
+  border-left: 0;
+  border-right: 0;
+  border-bottom: 0;
+}
+
+::-webkit-scrollbar {
+width:5px;
+background:inherit;
+}
+::-webkit-scrollbar-track {background: transparent;}
+::-webkit-scrollbar-thumb {background:var(--med);}
+
+::selection {
+  background: var(--light);
+  color: var(--text);
+}
+
+
+@media only screen and (max-width: 720px) {
+  body {
+    /*background-size: auto 100%;*/
+  }
+}
