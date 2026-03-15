@@ -1,5 +1,5 @@
-@import url("/loads/css/theme.css");
-@import url("/loads/heads/heads.css");
+@import url("/theming/theme.css");
+@import url("/theming/heads.css");
 
 :root {
     --NPF-Image-Spacing:4px;
@@ -21,7 +21,7 @@ text-transform: capitalize;
     /*basic styling*/
     
 body {
-font: 14px/1.5em Montserrat;
+font: 14px/1.5em "Funnel Sans";
 -webkit-font-smoothing: antialiased;
 color: var(--text);
 background-attachment: fixed;
