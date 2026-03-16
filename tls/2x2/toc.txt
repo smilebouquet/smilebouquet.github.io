@@ -1,4 +1,11 @@
-<div id="2x2ch" style="display: none">
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </head>
+
+<body>
 <div class="i"><img src="https://64.media.tumblr.com/98e8db52979778d964b287e0b9b2b12d/168a8ff93aa697f8-ba/s540x810/7cc7216786ab3bbacea528659a031905651194b9.webp"></div>
 <div class="en">2×2</div>
 <div class="jp">2×2（スクアード）</div>
@@ -102,3 +109,6 @@
 </table>
   -->
 </div>
+</body>
+
+</html>
