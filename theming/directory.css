@@ -799,7 +799,7 @@ height: auto;
 }
 
 a, a img {
-    height: auto;
+    height: fit-content;
 }
 
 }
