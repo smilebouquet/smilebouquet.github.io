@@ -799,8 +799,7 @@ height: auto;
 }
 
 a, a img {
-    height: fit-content;
-    max-width: 150px
+    max-width: 145px
 }
 
 }
