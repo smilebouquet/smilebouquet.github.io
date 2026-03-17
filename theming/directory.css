@@ -798,5 +798,8 @@ article {margin: 20px auto;}
 height: auto;
 }
 
+a, a img {
+    height: auto;
+}
 
 }
