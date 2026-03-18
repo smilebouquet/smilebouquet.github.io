@@ -1,0 +1,381 @@
+@import url("/loads/css/theme.css");
+
+#wrap {
+  width: 600px;
+  margin: 52px auto;
+  Background-color: var(--light);
+  padding: 0;
+  border-radius: 15px;
+}
+
+#all {
+  width: 525px;
+  margin: 50px auto;
+  background-color: var(--light);
+  padding: 25px 25px 0 25px;
+  border-radius: 15px;
+}
+
+a {
+  color: var(--dark);
+}
+a:hover, a:visited {
+  color: var(--medtl);
+}
+
+body {
+  color: #23262e;
+    --os-bubble-color: #f6f6f6;
+    --os-bubble-background-color: var(--light);
+    --os-background-color: var(--background);
+    --os-text-font: 17px/1.3 "Nunito Sans", sans-serif;
+  font-weight: 500;
+    --os-text-color:  #444444;
+    --os-link-color: var(--dark);
+    --os-link-color__hover: var(--medtl);
+    --os-background-secondary-color: var(--light);
+    --os-background-secondary-color__hover: var(--medtl);
+    --os-border-color: var(--light);
+    --os-toolbar-icon-color: var(--dark);
+    --os-toolbar-color: var(--os-background-secondary-color);
+    --os-identifier-color: var(--dark);
+    --os-identifier-width-image: 50px;
+    --os-border: var(--borders);
+    --os-shadow: none;
+}
+.oissu__embed .oissu .os-unit .os-content.os-lines p {
+    margin-bottom: 0.7em !important;
+}
+body.oissu-bubble .oissu__embed .oissu .os-unit .os-content.os-lines p {
+    margin-bottom: 0.3em !important;
+}
+body .oissu__embed .os-credits {
+  color: var(--background);
+  margin-bottom: 10px;
+}
+body .oissu__embed .oissu .os-unit .os-content.os-lines p {
+    transform: translateZ(0);
+}
+body .os-block {
+  color: var(--dark);
+  text-transform: uppercase;
+  font-size: 0.8em;
+}
+body .os-block a {
+  text-decoration: none;
+  font-weight: bold;
+}
+body .os-note {
+  padding-bottom: 35px;
+  margin-top: 0;
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 0.9em;
+  width: 80%;
+  margin: 0px auto;
+  color: var(--dark);
+}
+
+.oissu {
+  background-color: var(--light);
+  border: var(--borders);
+  border-radius: 5px;
+}
+
+.oissu img {
+  max-width: 500px;
+  height: auto;
+  margin: 0 auto;
+}
+
+.tippy-tooltip.custom-theme {
+background: var(--background);
+color: var(--text);
+text-align: center;
+font-size: 1em;
+border-radius: 5px;
+border: var(--borders);
+text-transform: capitalize;
+font-family: "Nunito Sans", sans-serif;
+font-size: 0.8em;
+}
+
+
+h1 {
+  color: var(--dark);
+  background-color: var(--background);
+  border-radius: 5px;
+  font-size: 2em;
+  text-align: center;
+  font-weight: bold;
+  padding: 10px;
+  margin: 20px;
+  font-family: "Nunito Sans", sans-serif;
+  opacity: 0.7;
+}
+
+#chapters, #toc {
+  position: fixed;
+  z-index: 999;
+  top: 40px;
+  left: 5vw;
+  width: 15vw;
+  max-height: 300px;
+  overflow: auto;
+  background-color: var(--background);
+  padding-top: 1px;
+  padding-bottom: 1px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 5px;
+  font: 0.85vw/1.5em Montserrat;
+  line-height: 2em;
+}
+.chb {
+    background-color: var(--bg);
+    margin-left: 0.1em;
+    margin-right: 0.1em;
+    margin-bottom: 0.3em;
+    padding: 0 0.5em 0 0.5em;
+    color: var(--dark);
+    border: var(--borders);
+    border-radius: 5px;
+    display: inline-block;
+    min-width: 1.7em;
+    text-align: center;
+}
+.chb:hover {
+    background-color: var(--dark);
+}
+#chapters a, #toc a {
+color: var(--dark); 
+text-decoration: none;
+-webkit-transition: all 0.3s;
+-moz-transition: all 0.3s;
+-ms-transition: all 0.3s;
+-o-transition: all 0.3s;
+transition: all 0.3s;
+}
+#chapters a:hover, #toc a:hover {
+  color: var(--dmtext);
+}
+.sec {
+    color: var(--light);
+    font-weight: bold;
+    position: relative;
+    margin-bottom: 0.5em;
+}
+.sec:after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 1.5px;
+    background: var(--light);
+    transform: scaleX(1);
+    transform-origin: left;
+}
+
+.noch {
+    background-color: var(--background);
+    color: var(--text);
+    margin-left: 0.1em;
+    margin-right: 0.1em;
+    margin-bottom: 0.3em;
+    padding: 0 0.5em 0 0.5em;
+    border: 1px solid var(--background);
+    border-radius: 5px;
+    text-align: center;
+    display: inline-block;
+    min-width: 1.7em;
+    text-align: center;
+}
+.noch:hover {
+    color: var(--dmtext);
+    background-color: var(--dark);
+    opacity: 0.3;
+}
+
+.littleguy, .flittleguy {
+  background-image: var(--link);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: transparent;
+  position: fixed;
+  right: 100px;
+  bottom: -55px;
+  z-index: 1000;
+  width: 120px;
+  height: 190px;
+}
+
+.mheads {
+  background-image: var(--link);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: transparent;
+  font-size: 1em;
+  line-height: 3em;
+  letter-spacing: 0px;
+  margin-right: 7px;
+}
+.mnoch {
+  filter: grayscale(100%);
+  opacity: 0.5;
+}
+
+.eichi {
+  --link: url(https://i.imgur.com/2PJ9QGp.png);}
+.wataru {
+  --link: url(https://i.imgur.com/IKpLrah.png);}
+.tori {
+  --link: url(https://i.imgur.com/WWEF6pz.png);}
+.yuzuru {
+  --link: url(https://i.imgur.com/S3e3O40.png);}
+.hokuto {
+  --link: url(https://i.imgur.com/Unz9FgB.png);}
+.subaru {
+  --link: url(https://i.imgur.com/ewYLpsL.png);}
+.makoto {
+  --link: url(https://i.imgur.com/HHpsySj.png);}
+.mao {
+  --link: url(https://i.imgur.com/4CG80iD.png);}
+.chiaki {
+  --link: url(https://i.imgur.com/vOKFt0y.png);}
+.kanata {
+  --link: url(https://i.imgur.com/bbJrd3Z.png);}
+.tetora {
+  --link: url(https://i.imgur.com/Tx858tM.png);}
+.midori {
+  --link: url(https://i.imgur.com/eOSdxLI.png);}
+.shinobu {
+  --link: url(https://i.imgur.com/VhKr5VT.png);}
+.hiiro {
+  --link: url(https://i.imgur.com/YbTUjr1.png);}
+.aira {
+  --link: url(https://i.imgur.com/5a3rq8s.png);}
+.mayoi {
+  --link: url(https://i.imgur.com/RHRs8Mf.png);}
+.tatsumi {
+  --link: url(https://i.imgur.com/NTs4kA0.png);}
+.nagisa {
+  --link: url(https://i.imgur.com/r9WP7v8.png);}
+.hiyori {
+  --link: url(https://i.imgur.com/eIViaiz.png);}
+.ibara {
+  --link: url(https://i.imgur.com/AYTvg14.png);}
+.jun {
+  --link: url(https://i.imgur.com/17sNLY6.png);}
+.shu {
+  --link: url(https://i.imgur.com/OFYmlhd.png);}
+.mika {
+  --link: url(https://i.imgur.com/XKYxWRe.png);}
+.hinata {
+  --link: url(https://i.imgur.com/Py6toEp.png);}
+.yuuta {
+  --link: url(https://i.imgur.com/pSzBykb.png);}
+.rinne {
+  --link: url(https://i.imgur.com/JxwwLEP.png);}
+.himeru {
+  --link: url(https://i.imgur.com/tIp1Rxl.png);}
+.kohaku {
+  --link: url(https://i.imgur.com/YJGYeaK.png);}
+.niki {
+  --link: url(https://i.imgur.com/CbSoYOQ.png);}
+.rei {
+  --link: url(https://i.imgur.com/8XdYCv0.png);}
+.kaoru {
+  --link: url(https://i.imgur.com/ge8lh9N.png);}
+.koga {
+  --link: url(https://i.imgur.com/wDXCNU0.png);}
+.adonis {
+  --link: url(https://i.imgur.com/qze3ZjU.png);}
+.tomoya {
+  --link: url(https://i.imgur.com/g00GBHZ.png);}
+.nazuna {
+  --link: url(https://i.imgur.com/G5BptaJ.png);}
+.mitsuru {
+  --link: url(https://i.imgur.com/U5xzdP8.png);}
+.hajime {
+  --link: url(https://i.imgur.com/8iLTH6B.png);}
+.keito {
+  --link: url(https://i.imgur.com/9fztkq7.png);}
+.kuro {
+  --link: url(https://i.imgur.com/ZMB1632.png);}
+.souma {
+  --link: url(https://i.imgur.com/3wwf9SV.png);}
+.tsukasa {
+  --link: url(https://i.imgur.com/NhIzaFK.png);}
+.leo {
+  --link: url(https://i.imgur.com/W0vfewK.png);}
+.izumi {
+  --link: url(https://i.imgur.com/cE8rUUl.png);}
+.ritsu {
+  --link: url(https://i.imgur.com/o0U9bgS.png);}
+.arashi {
+  --link: url(https://i.imgur.com/Ael1yCt.png);}
+.natsume {
+  --link: url(https://i.imgur.com/UBW8y5e.png);}
+.tsumugi {
+  --link: url(https://i.imgur.com/c8JXYFV.png);}
+.sora {
+  --link: url(https://i.imgur.com/vwhgODn.png);}
+.madara {
+  --link: url(https://i.imgur.com/9kMREYw.png);}
+
+  
+@media only screen and (max-width: 1150px) {
+#chapters, #toc {
+  width: 25vh;
+  left: 5vw;
+  top: 150px;
+  padding: 0 10px;
+  zoom: 90%;
+}
+.littleguy, .flittleguy {
+  right: 20px;
+}
+}
+
+@media only screen and (max-width: 900px) {
+#chapters, #toc {display:none;}
+.littleguy, .flittleguy {
+  right: 20px;
+  width: 70px;
+  height: 110px;
+  bottom: -35px;
+}
+}
+
+@media only screen and (max-width: 600px) {
+body {
+  background: transparent;
+  background-color: var(--light);
+}
+#chapters, #toc {display:none;}
+#wrap {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin: 0;
+}
+#all {
+  width: 100%;
+  margin: 0;
+  padding: 10px 0px 40px 0px;
+  border-radius: 0px;
+}
+body {
+  --os-text-font: 20px/1.3 "Nunito Sans", sans-serif;
+}
+.oissu img {
+  max-width: 600px;
+  height: auto;
+}
+}
+
+
+.i, .en, .jp, #info, .chal, .synopsis, .syn, .ex, .chl, #pr, #idol {display:none;}
