@@ -43,15 +43,6 @@
 </head>
   
   <body>
- 
-<div class="notice">
-<b>Notice:</b> Hover tooltips do not work correctly when reading stories in Full View. However, all translation notes are still located at the end of each chapter. Sorry for the inconvenience!
-<div class="chatboxtip">
-<img src="https://i.imgur.com/FIZYb3x.png" style="filter:hue-rotate(250deg);">
-<b>Tip:</b> Click or tap on the chatbox icon in the top navigation pane when reading stories to toggle between Script View (no icons) and Chat View (icons). Your preferences will be saved!
-</div>
-</div>
-</div>
 
   <!--post container-->
         <section>
@@ -97,60 +88,48 @@ $(document).ready(function () {
               <h3>Main</h3>
               <div style="display: none">
 <a onclick="qESEventChoose('mainstory1')" data-title="Main Story!"><img class="rnd" src="https://i.imgur.com/P3HTtcG.png"></a>
-<!--<a onclick="qESEventChoose('eplink')" data-title="EP:Link"><img src="https://i.imgur.com/rBVgkKz.png"></a>
-
-<a onclick="qESEventChoose('mainstory2')" data-title="Main Story!!"><img class="rnd" src="https://i.imgur.com/8xjDnAA.png"></a>
-<a onclick="qESEventChoose('sevenbridges')" data-title="Seven Bridges"><img src="https://i.imgur.com/UNk9SzU.png"></a>
-<a onclick="qESEventChoose('grandslam')" data-title="Grand Slam"><img src="https://i.imgur.com/OiO5wsi.png"></a>
-<a onclick="qESEventChoose('highandlow')" data-title="High and Low"><img src="https://i.imgur.com/uqsUQeO.png"></a>
-<a onclick="qESEventChoose('shinsekai')" data-title="SHINSEKAI"><img src="https://i.imgur.com/tnPU6BU.png"></a>
-<a onclick="qESEventChoose('sandstorm')" data-title="Sandstorm"><img src="https://i.imgur.com/3M1c3Ov.png"></a>
-<a onclick="qESEventChoose('sanctuary')" data-title="Sanctuary"><img src="https://i.imgur.com/QyhcL8a.png"></a>
-<a onclick="qESEventChoose('suddendeath')" data-title="Sudden Death"><img src="https://i.imgur.com/VCoSyR5.png"></a>
-<a onclick="qESEventChoose('ssfinals')" data-title="Final Stage: SS"><img src="https://i.imgur.com/x0WNh9G.png"></a>
-<a onclick="qESEventChoose('graduation')" data-title="Graduation"><img src="https://i.imgur.com/1n1LEXp.png"></a>
               </div>
               -->
 
-                                           <h3>Event</h3>
-                                           <div style="display: none">
+              <h3>Event</h3>
+              <div style="display: none">
 <a onclick="qESEventChoose('2x2')" data-title="2x2"><img class="rnd" src="https://64.media.tumblr.com/98e8db52979778d964b287e0b9b2b12d/168a8ff93aa697f8-ba/s540x810/7cc7216786ab3bbacea528659a031905651194b9.webp"></a>
-                                            </div>
+              </div>
                                             
-                                            <h3>Scout</h3>
-                                            <div style="display: none">
+              <h3>Scout</h3>
+              <div style="display: none">
 <a onclick="qESEventChoose('polkadots')" data-title="Polka Dots"><img class="rnd" src="https://64.media.tumblr.com/5913f71ea94f1a66ee9fe72238d54318/96250dba08999f92-fc/s540x810/a8286969cfd95e88713cfc8ac58060c6e074c55f.png"></a>
-                                            </div>
+              </div>
 
-                                            <h3>Idol</h3>
-                                            <div style="display: none">
+              <h3>Idol</h3>
+              <div style="display: none">
 <a onclick="qESEventChoose('airaidol')" data-title="Aira"><img class="idol" src="https://i.imgur.com/MJW7NBg.png"></a>
 <a onclick="qESEventChoose('hinataidol')" data-title="Hinata"><img class="idol" src="https://i.imgur.com/XwdOEWI.png" class="idol"></a>
 <a onclick="qESEventChoose('yuutaidol')" data-title="Yuuta"><img class="idol" src="https://i.imgur.com/IbQYSQc.png" class="idol"></a>
 <a onclick="qESEventChoose('tsukasaidol')" data-title="Tsukasa"><img class="idol" src="https://file.garden/ZpbncQeDJ0qCfni8/tl-blog%20use/banner-tsukasa"></a>
-                                            </div>
+              </div>
               
-                                            <!--<h3>Songs</h3>
-                                            <div style="display: none">
+              <!--
+              <h3>Songs</h3>
+              <div style="display: none">
 <a onclick="qESEventChoose('songs')" data-title="Enstars (ignore thumb)"><img src="https://file.garden/ZpbncQeDJ0qCfni8/tl-blog%20use/banner-oshiroom.png"></a>
-                                            </div>-->
+              </div>
+              -->
                                             
-                                            <h3>Other</h3>
-                                            <div style="display: none">
+              <h3>Other</h3>
+              <div style="display: none">
 <a onclick="qESEventChoose('oshiroom')" data-title="Oshi Room"><img src="https://file.garden/ZpbncQeDJ0qCfni8/tl-blog%20use/banner-oshiroom.png"></a>
 <a onclick="qESEventChoose('management')" data-title="Management Stories"><img class="rnd" src="https://i.imgur.com/slCxFUP.jpeg"></a>
-                                            </div>
+              </div>
                                             
-                                        </div>
+        </div>
                                         
-                                    </div>
+        </div>
                                     
-                                </div>
-                                <div class="q-esevent-main__wrapper">
-                                    <div class="q-esevent-main">
-                                        <div class="noneSelected">Select a story to see its details!</div>
-
-
+        </div>
+        <div class="q-esevent-main__wrapper">
+        <div class="q-esevent-main">
+        <div class="noneSelected">Select a story to see its details!</div>
 
 <!--MAIN STORY
 
@@ -158,26 +137,20 @@ $(document).ready(function () {
   <div id="ms1ch"></div>
 </div>
 
-<div id="mainstory2" style="display: none">
-  <div id="ms2ch"></div>
-</div>
 -->
 
 <!--EVENT STORIES-->
-
 <div id="2x2" style="display: none">
   <div id="2x2ch"></div>
 </div>
 
 
 <!--SCOUT STORIES-->
-
 <div id="polkadots" style="display: none">
   <div id="polkadotsch"></div>
 </div>
 
 <!--IDOL STORY-->
-
 <div id="hinataidol" style="display: none">
   <div id="hinataidolch"></div>
 </div>
@@ -195,7 +168,6 @@ $(document).ready(function () {
 </div>
 
 <!--OTHER STORIES-->
-
 <div id="oshiroom" style="display: none">
   <div id="oshiroomch"></div>
 </div>
@@ -208,6 +180,47 @@ $(document).ready(function () {
   <div id="songsch"></div>
 </div>
 
+</div>
+                                    
+</div>
+</div>
+                    
+</article><!--end of posts container-->
+</section><!--end of posts container--><!--pagination-->
+<!--end of main container-->
+    
+    <script>
+
+    // tooltips
+    tippy('[title]', {
+    theme: 'custom',
+    arrow: false,
+    followCursor: false,
+    delay: 50,
+    placement: 'top',
+    zIndex: 9999999999,
+    maxWidth: 200,
+
+    content(reference) {
+        const title = reference.getAttribute('title');
+        reference.removeAttribute('title');
+        return title;
+    },
+    });
+    
+
+    </script>
+      
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+      <script>
+         $(document).ready(function(){
+            $('#header').load("https://southerngothics.neocities.org/loads/text/navbar.html");
+            $('#tos').load("https://southerngothics.neocities.org/loads/text/tos.html");
+         });
+      </script>
+  
+  </body>
+</html>
 
 
 
@@ -266,46 +279,3 @@ $(document).ready(function () {
 </div>
 
 -->
-
-                                        
-                                    </div>
-                                    
-                                </div>
-                            </div>
-                    
-            </article>
-        </section><!--end of posts container--><!--pagination-->
-    </main><!--end of main container-->
-    
-    <script>
-
-    // tooltips
-    tippy('[title]', {
-    theme: 'custom',
-    arrow: false,
-    followCursor: false,
-    delay: 50,
-    placement: 'top',
-    zIndex: 9999999999,
-    maxWidth: 200,
-
-    content(reference) {
-        const title = reference.getAttribute('title');
-        reference.removeAttribute('title');
-        return title;
-    },
-    });
-    
-
-    </script>
-      
-      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-      <script>
-         $(document).ready(function(){
-            $('#header').load("https://southerngothics.neocities.org/loads/text/navbar.html");
-            $('#tos').load("https://southerngothics.neocities.org/loads/text/tos.html");
-         });
-      </script>
-  
-  </body>
-</html>
