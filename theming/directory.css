@@ -448,7 +448,7 @@ table#idol .cha {
 }
 .chb:hover {
     color: var(--dmtext);
-    background-color: var(--dark);
+    background-color: #8d7caa;
 }
 
 .noch {
