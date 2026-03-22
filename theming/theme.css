@@ -8,20 +8,19 @@
 
 
 :root {
---dmtext: #eeeeee;
+    --dmtext: #eeeeee;
 
---background: #f6f6f6;
---bgcolor: #F0F0F0;
---text: #5a5a5a;
---dark: #644B74;
---med: #b09bd5;
---medtl: #A794C7;
---light: #dccbe7;
---bg: #f7c9cf;
+    --background: #f6f6f6;
+    --bgcolor: #F0F0F0;
+    --text: #5a5a5a;
+    --dark: #644B74;
+    --med: #D0BFFF;
+    --medtl: #B780C4;
+    --light: #dccbe7;
+    --bg: #E5D9F2;
 
---box-shadow: 2px 2px rgba(0, 0, 0, 0.05);
---borders: 1px solid var(--light);
-
+    --box-shadow: 2px 2px rgba(0, 0, 0, 0.05);
+    --borders: 1px solid var(--light);
 }
 
 body{
