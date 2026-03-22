@@ -1,10 +1,11 @@
-@import url("https://fonts.googleapis.com/css2?family=Baskervville:ital@0;1&family=Cabin+Sketch:wght@400;700&family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Rubik+Dirt&family=Special+Elite&family=Zain:ital,wght@0,200;0,300;0,400;0,700;0,800;0,900;1,300;1,400&family=Birthstone&family=Dancing+Script:wght@400..700&family=Great+Vibes&family=Imperial+Script&family=Mea+Culpa&family=Rochester&display=swap");
+@import url("https://fonts.bunny.net/css2?family=Funnel+Sans:ital,wght@0,300..800;1,300..800&family=Golos+Text:ital,wght@0,400..900;1,400..900&family=Figtree:ital,wght@0,300..900;1,300..900&display=swap");
+/*
 @font-face {
   font-family:'nyquil';
-  src: url('/loads/fonts/NyQuil.ttf');
+  src: url('/loads/fonts/NyQuil.ttf')
+;*/
 }
 
-/* <link href="https://fonts.bunny.net/css2?family=Funnel+Sans:ital,wght@0,300..800;1,300..800&family=Golos+Text:ital,wght@0,400..900;1,400..900&family=Figtree:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet" crossorigin> */
 
 :root {
 --dmtext: #eeeeee;
@@ -15,13 +16,12 @@
 --dark: #644B74;
 --med: #b09bd5;
 --medtl: #A794C7;
---light: #cab1da;
+--light: #dccbe7;
 --bg: #f7c9cf;
 
 --box-shadow: 2px 2px rgba(0, 0, 0, 0.05);
 --borders: 1px solid var(--light);
 
---fancytxt: "Great Vibes", cursive;
 }
 
 body{
@@ -29,12 +29,9 @@ background-color: #8d7caa;
 background-image: url('https://64.media.tumblr.com/3d5b7e328717a20e6a90890857583ee7/tumblr_inline_t8igmaantm1qf8af3_500.png');
 background-repeat: repeat;
 background-size: auto;
-background-attachment: fixed;
-scrollbar-color: var(--med) transparent;
-cursor: var(--normcursor);
 }
 
-/*
+
 a, .chb, .noch, td a, .q-esevent-sidelist img, .q-esevent-side img, [data-title] {
   cursor: var(--pointcursor);
 }
@@ -42,6 +39,7 @@ p, li {
   cursor: var(--textcursor);
 }
 
+/*
 hr {
   background-image: url("https://i.imgur.com/sgEeTIq.png");
   display: block;
