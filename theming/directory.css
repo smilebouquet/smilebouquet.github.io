@@ -9,7 +9,7 @@
     --text: #5a5a5a;
     --dark: #644B74;
     --med: #D0BFFF;
-    --medtl: #D9ACF5;
+    --medtl: #B780C4;
     --light: #dccbe7;
     --bg: #E5D9F2;
 
@@ -397,7 +397,6 @@ table#idol .cha {
     color: var(--text);
     text-align: justify;
     text-justify: inter-word;
-    font-style: italic;
     margin-bottom: 8px;
     padding: 10px 15px;
     border-radius: 5px;
