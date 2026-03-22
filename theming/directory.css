@@ -2,6 +2,20 @@
 @import url("/theming/heads.css");
 
 :root {
+    --dmtext: #eeeeee;
+
+    --background: #f6f6f6;
+    --bgcolor: #F0F0F0;
+    --text: #5a5a5a;
+    --dark: #644B74;
+    --med: #b09bd5;
+    --medtl: #A794C7;
+    --light: #dccbe7;
+    --bg: #f7c9cf;
+
+    --box-shadow: 2px 2px rgba(0, 0, 0, 0.05);
+    --borders: 1px solid var(--light);
+    
     --NPF-Image-Spacing:4px;
     --NPF-Bottom-Gap-From-Captions:1em;
 }
