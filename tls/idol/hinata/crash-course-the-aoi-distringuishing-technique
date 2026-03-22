@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Polka Dots: Youth is the Colour of Summer 1</title>
+    <link rel="icon" type="image/x-icon" href="/icons/chibiTetora.png">
+    <link href="/theming/tl.css" rel="stylesheet" type="text/css" media="all">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <script src="https://unpkg.com/popper.js@1">
+    </script>
+    <script src="https://unpkg.com/tippy.js@5/dist/tippy-bundle.iife.js">
+    </script>
+
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+      <script>
+         $(document).ready(function(){
+            $('#chapters').load("/tls/polka-dots/toc.html");
+         });
+      </script>
+    
+    <script src="https://cdn.jsdelivr.net/gh/enstars/oissu@latest/dist/main.js"></script>
+    
+  </head>
+  <body>
+  
+<div id="chapters"></div>
+
+
+<div id="all">
+<h1>Crash Course: The Aoi-Distinguishing Technique!/h1>
+<div class="oissu" data-oissu-display="ymnsk-winter"
+data-oissu-display-custom='[  
+{   "commonname": "Hinata",    "filename": "/icons/Hinata.png" }, 
+{   "commonname": "Aira",    "filename": "/icons/Aira.png" }   ]'
+data-oissu-directory="/directory#hinataidol directory">
+
+<figure><img src="https://64.media.tumblr.com/08deffbfb9635a06ea4adcc7dc4e84b8/21984e7ec5952ec5-61/s1280x1920/3693fed7476f7882c8d37419f09473971790d64e.png"></figure>
+<p>
+  <b>Hinata:</b> (Ugh, I've got nothing to do...)
+</p>
+
+<!--
+<blockquote>
+    <p class="os-block" style="text-align: center;">proofing: sora</a></p>
+</blockquote>
+-->
+</div>
+	
+<ol class="os-note">
+  <li>a reference to <i>circus</i>.</li>
+  <li>a reference to <i>steampunk museum</i>.</li>
+  <li>a reference to grand slam.</li>
+</ol>
+
+</div>
+
+  </body>
+</html>
