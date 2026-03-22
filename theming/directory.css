@@ -321,6 +321,7 @@ body {
 }
 
 .jp {
+    font-family: "Kosugi Maru", sans-serif;
     font-size: 1.0em;
     color: var(--dark);
     opacity: 0.6;
