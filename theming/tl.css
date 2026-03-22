@@ -17,6 +17,16 @@
     
 }
 
+body {
+background-color: #8d7caa;
+background-image: url('https://64.media.tumblr.com/3d5b7e328717a20e6a90890857583ee7/tumblr_inline_t8igmaantm1qf8af3_500.png');
+background-repeat: repeat;
+background-size: auto;
+background-attachment: fixed;
+scrollbar-color: var(--med) transparent;
+cursor: var(--normcursor);
+}
+
 #wrap {
   width: 600px;
   margin: 52px auto;
