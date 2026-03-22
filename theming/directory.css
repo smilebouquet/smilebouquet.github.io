@@ -1,3 +1,4 @@
+@import url("https://fonts.bunny.net/css2?family=Funnel+Sans:ital,wght@0,300..800;1,300..800&family=Golos+Text:ital,wght@0,400..900;1,400..900&family=Figtree:ital,wght@0,300..900;1,300..900&display=swap");
 @import url("/theming/heads.css");
 
 :root {
@@ -10,7 +11,7 @@
     --med: #b09bd5;
     --medtl: #A794C7;
     --light: #dccbe7;
-    --bg: #f7c9cf;
+    --bg: #CDC1FF;
 
     --box-shadow: 2px 2px rgba(0, 0, 0, 0.05);
     --borders: 1px solid var(--light);
