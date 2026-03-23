@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Polka Dots: Youth is the Colour of Summer 1</title>
+    <link rel="icon" type="image/x-icon" href="/icons/chibiTetora.png">
+    <link href="/theming/tl.css" rel="stylesheet" type="text/css" media="all">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <script src="https://unpkg.com/popper.js@1">
+    </script>
+    <script src="https://unpkg.com/tippy.js@5/dist/tippy-bundle.iife.js">
+    </script>
+
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+      <script>
+         $(document).ready(function(){
+            $('#chapters').load("/tls/polka-dots/toc.html");
+         });
+      </script>
+    
+    <script src="https://cdn.jsdelivr.net/gh/enstars/oissu@latest/dist/main.js"></script>
+    
+  </head>
+  <body>
+  
+<div id="chapters"></div>
+
+
+<div id="all">
+<h1>Crash Course: The Aoi-Distinguishing Technique!/h1>
+<div class="oissu" data-oissu-display="ymnsk-winter"
+data-oissu-display-custom='[  
+{   "commonname": "Hinata",    "filename": "/icons/Hinata.png" }, 
+{   "commonname": "Aira",    "filename": "/icons/Aira.png" }   ]'
+data-oissu-directory="/directory#hinataidol directory">
+
+<figure><img src="https://64.media.tumblr.com/08deffbfb9635a06ea4adcc7dc4e84b8/21984e7ec5952ec5-61/s1280x1920/3693fed7476f7882c8d37419f09473971790d64e.png"></figure>
+<p><b>Hinata:</b> (Ugh, I've got nothing to do...)</p>
+<p>(Yuuta-kun's running errands, Hiiro-kun and Shiina-senpai are away, and there's nothing good on TV. Somebody save me from this boredom~!)</p>
+<p>(Hm? Someone's staring at me from the hallway?)
+<p><b>Aira:</b>......
+<p><b>Hinata:</b>If it isn't Shiratori-kun! Good afternoon~!</p>
+<b>Aira:</b>Oh! G-Good afternoon...</p>
+<p><b>Hinata:</b>What's up? Feeling thirsty? Looking for someone?</p>
+<p>I've got waaay too much free time on my hands so if there's anything troubling you at all I'm more than ready to help out♪</p>
+<p><b>Aira:</b>Ahaha...Thank you for the offer. But I'm not doing much right now, so...</p>
+<p><b>Hinata:</b>Really? Wait, so you've got nothing to do, either? We should hang out!</p>
+<p><b>Aira:</b>No, wait! I never said I was free!</p>
+<p><b>Hinata:</b>Awww, shucks.</p>
+<p>(......Isn't Shiratori-kun acting kinda weird?)</p>
+<p>(Maybe he's nervous because he's talking to *the* Aoi Hinata from 2wink or something? Since he's an idol lover and all.)</p>
+<p>(Nah, that can't be. We've talked a few times before, and he never seemed nervous then.)</p>
+<p>(And despite his suspicious behaviour, he's not looking away from me or anything... More like actively searching for something...)</p>
+<p>(Oh yeah, he hasn't addressed me by name, has he?)</p>
+<p>...Shiratori-kun, could it be that you don't know whether I'm Hinata or Yuuta-kun?)</p>
+<figure><img src="https://64.media.tumblr.com/bf48c960237257960713d54605cf1033/21984e7ec5952ec5-be/s1280x1920/de8dca3a2ef34c1e7c9611766c6dee39012fb955.png"></figure>
+<p><b>Aira:</b>What?! How did you know?!</p>
+<p>...No, that's not it! I–!</p>
+<p><b>Hinata:</b>Yeah, I figured. As identical twins, Yuuta-kun and I are spitting images of each other, so it's pretty hard to tell us apart.</p>
+<p><b>Aira:</b>Uu, I'm really sorry. The truth is I couldn't tell if you were Hinata-senpai or Yuuta-senpai, so I thought to study you from the hallway. Based on your tone, you must be Hinata-senpai.</p>
+<p>I've called you both by the wrong names before... You may be twins, but isn't it rude to get a senpai's name wrong?</p>
+<p>That's why I started trying to be more careful, but I still can't tell you guys apart at all...</p>
+<p><b>Hinata:</b>We don't really mind, you know. A lot of people can't tell us apart.</p>
+<p><b>Aira:</b>Still, getting mixed up mustn't feel very nice.</p>
+<p>And even if, as you say, the majority can't tell you apart, there has to be someone who can, right?</p>
+<p><b>Hinata:</b>Yup. I think Itsuki-senpai and Fushimi-senpai can.<sup>1</sup></p>
+<p><b>Aira:</b>Wow... May I ask how?</p>
+<p><b>Hinata:</b>Itsuki-senpai tell us apart by hair length. Yuuta-kun's hair was apparently, like, two millimetres longer.</p>
+<p><b>Aira:</b>He could tell down to the millimetre?! I expected nothing less from Itsuki Shu of Valkyrie...!</p>
+<p><b>Hinata:</b>Itsuki-senpai said it's easy to differentiate us based on our personalities and behaviours. I think Fushimi-senpai took one look at my movements and knew I was Hinata.</p>
+<p>Oh, and Kagehira-senpai also saw us as completely different people. Not that he could explain how he could tell.<sup>2</sup></p>
+<p><b>Aira:</b>That's amazing... But that still doesn't tell me how to differentiate you two.</p>
+<p><b>Hinata:</b>...Well, what about a crash course?</p>
+<p><b>Aira:</b>A crash course?</p>
+<p><b>Hinata:</b>Yup! A "Who's that 2wink member?" game, to be exact!</p>
+<p><b>Aira:</b>Huh? Now it's a game?</p>
+<p><b>Hinata:</b>Oops, I misspoke. I meant crash course, crash course☆</p>
+<p>The rules are simple! I show you a photo, and you guess if it's me or Yuuta-kun!</p>
+<p><b>Aira:</b>Um, I understand the rules, but how am I supposed to tell you apart in photos when I can't even do that while talking to you directly? Won't that be way harder?</p>
+<figure><img src="https://64.media.tumblr.com/65db6729f3b3a23281913d90118e119e/21984e7ec5952ec5-9d/s1280x1920/4e603a07a7c10ab6874f4a1b405511f88f3a1659.png"></figure>
+<p><b>Hinata:</b>You'll be fiiine. If we do it for long enough, you'll get it eventually, right~?✩</p>
+<p>Now, question one! Which photo should I use~... Ah, this one✩</p>
+<p>Ahem! Before you is a photo from an interview we did for a song release. Now just who could this be: Yuuta-kun or me?</p>
+<p><b>Aira:</b>Um... Yuuta-senpai.</p>
+<p><b>Hinata:</b>What?! Correct! Wowie, you could tell right away!</p>
+<p><b>Aira:</b>Ahaha... T-Thank you.</p>
+<p><b>Hinata:</b>C'mon, you got it right, so you should celebrate more! Like this: hooray~!</p>
+<p><b>Aira:</b>...I'm sorry, Hinata-senpai. I may have sort of cheated.</p>
+<p><b>Hinata:</b>You did? How can you cheat when all I did was show a photo?</p>
+<p><b>Aira:</b>I actually bought the magazine that printed the interview... That's how I knew Yuuta-senpai was in the photo.</p>
+<p><b>Hinata:</b>Ahh, the article *did* introduce us with our names and everything. That's cheating, alright!</p>
+<p><b>Aira:</b>Yeah...</p>
+<p><b>Hinata:</b>Then we'll just not count that one! Question one, take two!</p>
+<p>Umm... Ah, this one looks good.</p>
+<p>Before you is a photo of Yuuta-kun and I at a cafe. Now, which one of us is in the front, and which one of us is at the back?</p>
+<p><b>Aira:</b>Wooow, a look at 2wink during their time off! How love~ly♪</p>
+<p><b>Hinata:</b>Hey, now. I'm asking a question here, so tone down the fanboying and answer, okay?</p>
+<p><b>Aira:</b>Oh, right! I got too excited seeing a candid photo of the idols I like...!</p>
+<p>Still, you look exactly the same here, and you're wearing clothes I've never seen before so I can't use that to decide.</p>
+<p>Oh? But I think...</p>
+<p><b>Hinata:</b>What's this? Think you figured it out?</p>
+<p><b>Aira:</b>This is just a guess, but is the one closer to the camera you, and the one further back Yuuta-kun?</p>
+<p><b>Hinata:</b>Oho. How did you come to that conclusion?</p>
+<p><b>Aira:</b>This photo is a selfie, right? The person in the front would be the one holding the phone to take the photo.</p>
+<p>And since the photo is on your phone, that means you're closer...</p>
+<p><b>Hinata:</b> I see, I see. ...Fufu, I had a feeling you'd go down that pipeline.</p>
+<p>But too bad! This photo was taken by Yuuta-kun; I only got ahold of it later♪ So Yuuta-kun's the one in the front, and I'm the one in the back!</p>
+<p><b>Aira:</b> Ahhh, so you received the photo afterwards... The possibility didn't cross my mind at all...</p>
+<p><b>Hinata:</b> Y'know, Shiratori-kun. You'll never tell us apart if you keep relying on circumstantial evidence like that.</p>
+<p>You gotta give a good hard look at us and tell us apart properly!</p>
+<p><b>Aira:</b> Uu, I'm sorry. You're totally right.</p>
+<p>During the Old-Fashioned Sports Festival, I was so sure the leader of Team Cospro was you, Hinata-senpai, so I didn't even consider that you could've swapped places with Yuuta-senpai...<sup>3</sup></p>
+<figure><img src="https://64.media.tumblr.com/1b86606ebed7ce7329bac6eb603448b7/21984e7ec5952ec5-1f/s1280x1920/b11c2588a0abc0266e26e1586fbf2772f43b1f34.png"></figure>
+<p>...As a fan of you two, I want to be able to tell you apart properly. So please, Hinata-senpai! Bring on the next question!</p>
+<p><b>Hinata:</b> Well said, Shiratori-kun! Now, our next question~... will be this photo! Is the person in this photo Yuuta-kun or me?!</p>
+<p><b>Aira:</b>...! The fluffy hair, the shape of the eyes and hands… Coupled with that expression, it all points to—</p>
+<p>I got it! This has to be you, Hinata-senpai!</p>
+<p><b>Hinata:</b> Nope, it's Yuuta-kun.</p>
+<p><b>Aira:</b> Uwaaaa?! I knew it, I don't get it at aaaall!</p>
+<p><b>Hinata:</b> Ahaha! Let's move on to the next question, shall we~?
+</p>
+
+<!--
+<blockquote>
+    <p class="os-block" style="text-align: center;">proofing: sora</a></p>
+</blockquote>
+-->
+</div>
+	
+<ol class="os-note">
+  <li>a reference to <i>steampunk museum</i> and <i>circus</i> respectively.</li>
+  <li>another reference to <i>steampunk museum</i>.</li>
+  <li>a reference to grand slam.</li>
+</ol>
+
+</div>
+
+  </body>
+</html>
