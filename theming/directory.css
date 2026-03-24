@@ -560,9 +560,29 @@ table#idol .cha {
     position: relative;
 }
 
+div.albimg {
+    max-width: 150px;
+    padding-right: 30px;
+    float: left;
+}
+
+div.albinfo {
+    width: 100%;
+    text-align: left;
+    list-style-type: decimal-leading-zero;
+    padding-right: 20px;
+    }
+  
+#songtit {
+    font-size: 1.1em;
+}
+  
+    #songcred {
+      font-size: 0.95em;
+    }
+
 @media only screen and (max-width: 720px) {
-    
-    
+        
 .q-esevent__wrapper {
     flex-direction: column;
     height: 100vh;
