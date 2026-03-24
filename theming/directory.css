@@ -110,7 +110,7 @@ white-space: -o-pre-wrap;
 word-wrap: break-word;
 }
 
-li {max-width: 100%; list-style-type: circle;}
+li {max-width: 100%; list-style-type: decimal-leading-zero;}
 
 /*posts*/
 
@@ -576,7 +576,6 @@ div.albimg {
 div.songlist {
     width: 100%;
     text-align: left;
-    list-style-type: decimal-leading-zero;
     padding-right: 20px;
     }
   
@@ -584,8 +583,8 @@ div.songlist {
     font-size: 1.1em;
 }
   
-    #songcred {
-      font-size: 0.95em;
+#songcred {
+    font-size: 0.7em;
     }
 
 @media only screen and (max-width: 720px) {
