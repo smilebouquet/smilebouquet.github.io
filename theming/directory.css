@@ -560,13 +560,20 @@ table#idol .cha {
     position: relative;
 }
 
+div.alb {
+    background-color: var(--background);
+    margin: 1em auto;
+    box-shadow: var(--box-shadow);
+    border-radius: 5px;
+}
+
 div.albimg {
     max-width: 150px;
     padding-right: 30px;
     float: left;
 }
 
-div.albcon {
+div.songlist {
     width: 100%;
     text-align: left;
     list-style-type: decimal-leading-zero;
