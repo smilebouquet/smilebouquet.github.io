@@ -575,13 +575,13 @@ div.albimg {
     margin: 0.5em 0.5em 0 0.5em;
 }
 
-div.songlist {
+div.sl {
     width: 100%;
     text-align: left;
     margin: 0.5em;
     }
 
-.songs {
+.slcon {
     max-width: 100%; 
     list-style-type: decimal-leading-zero;
     box-shadow: var(--box-shadow);
