@@ -43,7 +43,7 @@ background-attachment: fixed;
 scrollbar-color: var(--med) transparent;
 cursor: var(--normcursor);
 
-font: 14px/1.5em "Funnel Sans";
+font: 16px/1.5em "Funnel Sans";
 -webkit-font-smoothing: antialiased;
 color: var(--text);
 background-attachment: fixed;
