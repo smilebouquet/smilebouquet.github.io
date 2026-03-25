@@ -112,15 +112,6 @@ word-wrap: break-word;
 
 li {max-width: 100%; list-style-type: circle;}
 
-li.songs {
-    max-width: 100%; 
-    list-style-type: decimal-leading-zero;
-    box-shadow: var(--box-shadow);
-    border-radius: 5px;
-    background-color: var(--light);
-    margin: 1em auto;
-}
-
 /*posts*/
 
 main {    
@@ -575,19 +566,30 @@ div.alb {
     box-shadow: var(--box-shadow);
     border-radius: 5px;
     display: flex;
-    gap: 10px;
+    gap: 15px;
 }
 
 div.albimg {
-    max-width: 150px;
+    max-width: 35%;
     padding-right: 30px;
-    float: left;
+    margin: 0.5em 0.5em 0 0.5em;
 }
 
 div.songlist {
     width: 100%;
     text-align: left;
+    margin: 0.5em;
     }
+
+.songs {
+    max-width: 100%; 
+    list-style-type: decimal-leading-zero;
+    box-shadow: var(--box-shadow);
+    border-radius: 5px;
+    background-color: var(--light);
+    margin: 0 0 0.5em 0;
+    
+}
   
 #songtit {
     font-size: 1.1em;
@@ -595,6 +597,7 @@ div.songlist {
   
 #songcred {
     font-size: 0.7em;
+    display: none;
     }
 
 @media only screen and (max-width: 720px) {
