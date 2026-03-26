@@ -442,7 +442,7 @@ table#idol .cha {
 
 .albcov {
     max-width: 35%;
-    margin: 0.5em 0.5em 0 0.5em;
+    margin: 0.5em 0 0.5em 0.5em;
     font-family: 'Balsamiq Sans', display;
     text-align: center
 }
@@ -461,8 +461,6 @@ ol.slcon li {
 .chb, .noch, .tlb, .notl {
     display: inline-block;
     border-radius: 5px;
-    margin-left: 0.1em;
-    margin-right: 0.1em;
     margin-bottom: 0.3em;
     padding: 0;
     }
@@ -470,10 +468,13 @@ ol.slcon li {
 .chb, .noch {
     width: 2.8em;
     text-align: center;
+    margin-left: 0.1em;
+    margin-right: 0.1em;
     }
 
 .tlb, .notl {
     width: 100%;
+    padding-left: 0.1
     }
 
 .chb, .tlb {
