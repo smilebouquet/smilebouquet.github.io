@@ -432,10 +432,7 @@ table#idol .cha {
     content: "Chapter List";
 }
 
-.chb, .noch {
-    display: inline-block;
-    width: 2.8em;
-    text-align: center;
+.chb, .noch, ol.slcon li {
     border-radius: 5px;
     margin-left: 0.1em;
     margin-right: 0.1em;
@@ -443,22 +440,28 @@ table#idol .cha {
     padding: 0;
 }
 
-.chb {
+.chb, .noch {
+    display: inline-block;
+    width: 2.8em;
+    text-align: center;
+}
+
+.chb, .tlb {
     background-color: var(--bg);
     color: var(--dark);
     border: var(--borders);
 }
-.chb:hover {
+.chb:hover, .tlb:hover {
     color: var(--dmtext);
     background-color: #8d7caa;
 }
 
-.noch {
+.noch, .notl {
     background-color: var(--background);
     color: var(--text);
     border: 1px solid var(--background);
 }
-.noch:hover {
+.noch:hover, notl:hover {
     color: var(--dmtext);
     background-color: #8d7caa;
     opacity: 30%;
@@ -466,6 +469,36 @@ table#idol .cha {
 .nodir {
   display: none;
 }
+
+div.alb {
+    background-color: var(--background);
+    margin: 1em auto;
+    box-shadow: var(--box-shadow);
+    border-radius: 5px;
+    display: flex;
+}
+
+div.albcov {
+    max-width: 35%;
+    margin: 0.5em 0.5em 0 0.5em;
+    font-family: 'Balsamiq Sans', display;
+    text-align: center
+}
+
+div.sl {
+    width: 100%;
+    text-align: left;
+    margin: 0.5em;
+    }
+  
+.tits {
+    font-size: 1.1em;
+}
+  
+.creds {
+    font-size: 0.7em;
+    display: none;
+    }
 
 
 .sec {
@@ -561,47 +594,6 @@ table#idol .cha {
 [data-title] {
     position: relative;
 }
-
-div.alb {
-    background-color: var(--background);
-    margin: 1em auto;
-    box-shadow: var(--box-shadow);
-    border-radius: 5px;
-    display: flex;
-}
-
-div.albimg {
-    max-width: 35%;
-    margin: 0.5em 0.5em 0 0.5em;
-    font-family: 'Balsamiq Sans', display;
-    text-align: center
-}
-
-div.sl {
-    width: 100%;
-    text-align: left;
-    margin: 0.5em;
-    }
-
-ol.slcon li {
-    max-width: 100%; 
-    list-style-type: decimal-leading-zero;
-    box-shadow: var(--box-shadow);
-    border-radius: 5px;
-    background-color: var(--light);
-    margin: 0 0 0.5em 0;
-    padding: 0 0.5em 0 0.5em;
-    
-}
-  
-#songtit {
-    font-size: 1.1em;
-}
-  
-#songcred {
-    font-size: 0.7em;
-    display: none;
-    }
 
 @media only screen and (max-width: 720px) {
         
