@@ -453,8 +453,9 @@ table#idol .cha {
     margin: 0.5em;
     }
 
-ol.slcon {
+ol.slcon li {
     list-style-type: decimal-leading-zero;
+    text-align: left;
     }
 
 .chb, .noch, .tlb, .notl {
@@ -473,7 +474,6 @@ ol.slcon {
 
 .tlb, .notl {
     width: 100%;
-    text-align: left;
     }
 
 .chb, .tlb {
@@ -487,12 +487,13 @@ ol.slcon {
     background-color: #8d7caa;
     }
 
-.noch, {
+.noch, .notl {
     background-color: var(--background);
     color: var(--text);
     border: 1px solid var(--background);
     }
-.noch:hover, notl:hover {
+
+.noch:hover, .notl:hover {
     color: var(--dmtext);
     background-color: #8d7caa;
     opacity: 30%;
