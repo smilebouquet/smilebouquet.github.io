@@ -453,7 +453,7 @@ table#idol .cha {
     margin: 0.5em;
     }
 
-.slcon {
+ol.slcon {
     list-style-type: decimal-leading-zero;
     }
 
@@ -464,37 +464,40 @@ table#idol .cha {
     margin-right: 0.1em;
     margin-bottom: 0.3em;
     padding: 0;
-}
+    }
 
 .chb, .noch {
     width: 2.8em;
     text-align: center;
-}
+    }
 
 .tlb, .notl {
     width: 100%;
     text-align: left;
+    }
 
 .chb, .tlb {
     background-color: var(--bg);
     color: var(--dark);
     border: var(--borders);
-}
+    }
+
 .chb:hover, .tlb:hover {
     color: var(--dmtext);
     background-color: #8d7caa;
-}
+    }
 
-.noch, .notl {
+.noch, {
     background-color: var(--background);
     color: var(--text);
     border: 1px solid var(--background);
-}
+    }
 .noch:hover, notl:hover {
     color: var(--dmtext);
     background-color: #8d7caa;
     opacity: 30%;
-}
+    }
+
 .nodir {
   display: none;
 }
