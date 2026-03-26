@@ -432,7 +432,33 @@ table#idol .cha {
     content: "Chapter List";
 }
 
-.chb, .noch, ol.slcon li {
+.alb {
+    background-color: var(--background);
+    margin: 1em auto;
+    box-shadow: var(--box-shadow);
+    border-radius: 5px;
+    display: flex;
+}
+
+.albcov {
+    max-width: 35%;
+    margin: 0.5em 0.5em 0 0.5em;
+    font-family: 'Balsamiq Sans', display;
+    text-align: center
+}
+
+.sl {
+    width: 100%;
+    text-align: left;
+    margin: 0.5em;
+    }
+
+.slcon {
+    list-style-type: decimal-leading-zero;
+    }
+
+.chb, .noch, .tlb, .notl {
+    display: inline-block;
     border-radius: 5px;
     margin-left: 0.1em;
     margin-right: 0.1em;
@@ -441,10 +467,13 @@ table#idol .cha {
 }
 
 .chb, .noch {
-    display: inline-block;
     width: 2.8em;
     text-align: center;
 }
+
+.tlb, .notl {
+    width: 100%;
+    text-align: left;
 
 .chb, .tlb {
     background-color: var(--bg);
@@ -470,27 +499,6 @@ table#idol .cha {
   display: none;
 }
 
-div.alb {
-    background-color: var(--background);
-    margin: 1em auto;
-    box-shadow: var(--box-shadow);
-    border-radius: 5px;
-    display: flex;
-}
-
-div.albcov {
-    max-width: 35%;
-    margin: 0.5em 0.5em 0 0.5em;
-    font-family: 'Balsamiq Sans', display;
-    text-align: center
-}
-
-div.sl {
-    width: 100%;
-    text-align: left;
-    margin: 0.5em;
-    }
-  
 .tits {
     font-size: 1.1em;
 }
