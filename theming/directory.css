@@ -453,6 +453,11 @@ table#idol .cha {
     margin: 0.5em;
     }
 
+.slcon {
+    margin-top: 0px;
+    padding-left: 30px;
+}
+
 ol.slcon li {
     list-style-type: decimal-leading-zero;
     text-align: left;
