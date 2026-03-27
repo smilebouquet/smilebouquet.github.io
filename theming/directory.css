@@ -438,11 +438,11 @@ table#idol .cha {
     box-shadow: var(--box-shadow);
     border-radius: 5px;
     display: flex;
+    padding: 0.5em;
 }
 
 .albcov {
     max-width: 35%;
-    margin: 0.5em 0 0.5em 0.5em;
     font-family: 'Balsamiq Sans', display;
     text-align: center
 }
@@ -473,8 +473,9 @@ ol.slcon li {
     }
 
 .tlb, .notl {
-    width: 100%;
-    padding-left: 0.1
+    max-width: 100%;
+    padding-left: 0.3em;
+    padding-right: 0.3em;
     }
 
 .chb, .tlb {
