@@ -1,22 +1,9 @@
 @import url("https://fonts.bunny.net/css2?family=Funnel+Sans:ital,wght@0,300..800;1,300..800&family=Golos+Text:ital,wght@0,400..900;1,400..900&family=kosugi-maru:400&family=Figtree:ital,wght@0,300..900;1,300..900&display=swap");
 @import url(https://fonts.bunny.net/css?family=balsamiq-sans:400|kosugi-maru:400);
+@import url("/theming/theme.css");
 @import url("/theming/kepala.css");
 
 :root {
-    --dmtext: #eeeeee;
-
-    --background: #f6f6f6;
-    --bgcolor: #F0F0F0;
-    --text: #5a5a5a;
-    --dark: #644B74;
-    --med: #D0BFFF;
-    --medtl: #B780C4;
-    --light: #dccbe7;
-    --bg: #E5D9F2;
-
-    --box-shadow: 2px 2px rgba(0, 0, 0, 0.05);
-    --borders: 1px solid var(--light);
-    
     --NPF-Image-Spacing:4px;
     --NPF-Bottom-Gap-From-Captions:1em;
 }
