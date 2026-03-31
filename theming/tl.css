@@ -86,6 +86,7 @@ body .oissu__embed .oissu .os-unit .os-content.os-lines p {
 }
 body .os-block {
   color: var(--dark);
+  text-transform: none;
   font-size: 0.8em;
 }
 body .os-block a {
