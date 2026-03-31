@@ -1,33 +1,6 @@
 @import url("https://fonts.bunny.net/css2?family=Funnel+Sans:ital,wght@0,300..800;1,300..800&family=Golos+Text:ital,wght@0,400..900;1,400..900&family=kosugi-maru:400&family=Figtree:ital,wght@0,300..900;1,300..900&display=swap");
 @import url("/theming/theme.css");
 
-:root {
-    --dmtext: #eeeeee;
-
-    --background: #f6f6f6;
-    --bgcolor: #F0F0F0;
-    --text: #5a5a5a;
-    --dark: #644B74;
-    --med: #D0BFFF;
-    --medtl: #B780C4;
-    --light: #dccbe7;
-    --bg: #E5D9F2;
-
-    --box-shadow: 2px 2px rgba(0, 0, 0, 0.05);
-    --borders: 1px solid var(--light);
-    
-}
-
-body {
-background-color: #8d7caa;
-background-image: url('https://64.media.tumblr.com/3d5b7e328717a20e6a90890857583ee7/tumblr_inline_t8igmaantm1qf8af3_500.png');
-background-repeat: repeat;
-background-size: auto;
-background-attachment: fixed;
-scrollbar-color: var(--med) transparent;
-cursor: var(--normcursor);
-}
-
 #wrap {
   width: 600px;
   margin: 52px auto;
