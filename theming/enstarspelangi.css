@@ -1,0 +1,89 @@
+:root {
+	--eichi: #ffde33;
+	--wataru: #b8f4ff;
+	--tori: #F5B2B2;
+	--yuzuru: #a3c1ff;
+
+	--subaru: #F3981D;
+
+  --kanata: #008DB7;
+	--shinobu: #ffdc00;
+	
+	--hiiro: #ba2636
+	--mayoi: #522f60
+	
+	--hiyori: #b8d200
+	
+	--shu: #e3acae;
+	--mika: #006a6c;
+
+	--hinata: #EB6EA0;
+	--yuuta: #00A1E9;
+
+  --rinne: #b7282e
+  --himeru: #89c3eb
+	--kohaku: #F4B3C2;
+	--niki: #507ea4
+
+	--rei: #47266E;
+	--kaoru: #FDD35C;
+	--koga: #C9CACA;
+	--adonis: #915DA3;
+
+	--tomoya: #e3c275;
+	--nazuna: #e1ca00;
+	--mitsuru: #ED6D35;
+	--hajime: #CBB8D9;
+	
+	--tsukasa: #942343
+	--leo: #ec6d51
+	--izumi: #80c0ef
+	--ritsu: #001E43
+	--arashi: #dfc82b
+	
+	--natsume: #d70035
+	--sora: #e3d40b
+	--tsumugi: #00608d
+}
+
+
+.eichi {color: var(--eichi);}
+.wataru {color: var(--wataru);}
+.tori {color: var(--tori);}
+.yuzuru {color: var(--yuzuru);}
+
+.subaru {color: var(--subaru);}
+
+.kanata {color: var(--kanata);}
+.shinobu {color: var(--shinobu);}
+
+.hiiro {color: var(--hiiro);}
+.mayoi {color: var(--mayoi);}
+
+.hiyori {color: var(--hiyori);}
+
+.shu {color: var(--shu);}
+.mika {color: var(--mika);}
+
+.hinata {color: var(--hinata);}
+.yuuta {color: var(--yuuta);}
+
+.rinne {color: var(--rinne);}
+.himeru {color: var(--himeru);}
+.kohaku {color: var(--kohaku);}
+.niki {color: var(--niki);}
+
+.tomoya {color: var(--tomoya);}
+.nazuna {color: var(--nazuna);}
+.mitsuru {color: var(--mitsuru);}
+.hajime {color: var(--hajime);}
+
+.tsukasa {color: var(--tsukasa);}
+.leo {color: var(--leo);}
+.izumi {color: var(--izumi);}
+.ritsu {color: var(--ritsu);}
+.arashi {color: var(--arashi);}
+
+.natsume {color: var(--natsume);}
+.sora {color: var(--sora);}
+.tsumugi {color: var(--tsumugi);}
