@@ -127,21 +127,20 @@ h1 {
   padding-left: 20px;
   padding-right: 20px;
   border-radius: 5px;
-  font: 0.85vw/1.5em Montserrat;
+  font: 1.1vw/1.5em "Funnel Sans", sans-serif;
   line-height: 2em;
 }
+
 .tlb {
     background-color: var(--bg);
-    margin-left: 0.1em;
-    margin-right: 0.1em;
     margin-bottom: 0.3em;
     padding: 0 0.5em 0 0.5em;
     color: var(--dark);
     border: var(--borders);
     border-radius: 5px;
-    display: inline-block;
-    min-width: 1.7em;
-    text-align: center;
+    display: flex;
+    text-align: left;
+    line-height: 1.5;
 }
 .tlb:hover {
     background-color: var(--dark);
@@ -186,9 +185,10 @@ transition: all 0.3s;
     border: 1px solid var(--background);
     border-radius: 5px;
     text-align: center;
-    display: inline-block;
+    display: flex;
     min-width: 1.7em;
-    text-align: center;
+    text-align: left;
+    line-height: 1.5;
 }
 .notl:hover {
     color: var(--dmtext);
