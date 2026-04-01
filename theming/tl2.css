@@ -130,7 +130,7 @@ h1 {
   font: 0.85vw/1.5em Montserrat;
   line-height: 2em;
 }
-.chb {
+.tlb {
     background-color: var(--bg);
     margin-left: 0.1em;
     margin-right: 0.1em;
@@ -143,7 +143,7 @@ h1 {
     min-width: 1.7em;
     text-align: center;
 }
-.chb:hover {
+.tlb:hover {
     background-color: var(--dark);
 }
 #chapters a, #toc a {
@@ -176,7 +176,7 @@ transition: all 0.3s;
     transform-origin: left;
 }
 
-.noch {
+.notl {
     background-color: var(--background);
     color: var(--text);
     margin-left: 0.1em;
@@ -190,12 +190,13 @@ transition: all 0.3s;
     min-width: 1.7em;
     text-align: center;
 }
-.noch:hover {
+.notl:hover {
     color: var(--dmtext);
     background-color: var(--dark);
     opacity: 0.3;
 }
 
+.slcon
 
 
 
@@ -242,4 +243,4 @@ body {
 }
 
 
-.i, .en, .jp, #info, .chal, .synopsis, .syn, .ex, .chl, #pr, #idol {display:none;}
+.i, .en, .jp, #info, .chal, .synopsis, .syn, .ex, .chl, #pr, #idol, .albcov img {display:none;}
