@@ -77,7 +77,7 @@ body .os-note {
 
 .oissu {
   background-color: var(--bg);
-  border: var(--borders);
+  border: var(--bg);
   border-radius: 5px;
 }
 
