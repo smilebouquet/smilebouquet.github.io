@@ -451,13 +451,13 @@ ol.slcon li {
     }
 
 .chb, .noch, .tlb, .notl {
-    display: inline-block;
     border-radius: 5px;
     margin-bottom: 0.3em;
     padding: 0;
     }
 
 .chb, .noch {
+    display: inline-block;
     width: 2.8em;
     text-align: center;
     margin-left: 0.1em;
@@ -465,6 +465,7 @@ ol.slcon li {
     }
 
 .tlb, .notl {
+    display: flex;
     max-width: 100%;
     padding-left: 0.3em;
     padding-right: 0.3em;
