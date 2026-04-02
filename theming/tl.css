@@ -159,7 +159,7 @@ transition: all 0.3s;
   color: var(--dmtext);
 }
 .sec {
-    color: var(--light);
+    color: var(--medtl);
     font-weight: bold;
     position: relative;
     margin-bottom: 0.5em;
