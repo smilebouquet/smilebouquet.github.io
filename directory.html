@@ -30,9 +30,14 @@
             $('#yuutaidolch').load("tl/idol/yuuta/toc.html");
             $('#airaidolch').load("tl/idol/aira/toc.html");
             $('#tsukasaidolch').load("tl/idol/tsukasa/toc.html");
-
+           
+            $('#finech').load("tl/song/fine-toc.html");
             $('#2winkch').load("tl/song/2wink-toc.html");
+            $('#crazybch').load("tl/song/crazyb-toc.html");
+            $('#undeadch').load("tl/song/undead-toc.html");
             $('#knightsch').load("tl/song/knights-toc.html");
+            $('#switchch').load("tl/song/switch-toc.html");
+            $('#esupurich').load("tl/song/espuri-toc.html");
             $('#otherch').load("tl/song/other-toc.html");
             
             $('#managech').load("tl/management/toc.html");
@@ -114,8 +119,19 @@ $(document).ready(function () {
               
               <h3>Songs</h3>
               <div style="display: none">
+  <!--
+  <a onclick="qESEventChoose('finesong')" data-title="fine"><img src="https://file.garden/ZpbncQeDJ0qCfni8/tl-blog%20use/banner-fine.webp"></a>
+  -->
 <a onclick="qESEventChoose('2winksong')" data-title="2wink"><img src="https://file.garden/ZpbncQeDJ0qCfni8/tl-blog%20use/banner-2wink.webp"></a>
+  <!--
+  <a onclick="qESEventChoose('crazybsong')" data-title="Crazy:B"><img src="https://file.garden/ZpbncQeDJ0qCfni8/tl-blog%20use/banner-crazyb.webp"></a>
+  <a onclick="qESEventChoose('undeadsong')" data-title="UNDEAD"><img src="https://file.garden/ZpbncQeDJ0qCfni8/tl-blog%20use/banner-undead.webp"></a>
+  -->
 <a onclick="qESEventChoose('knightssong')" data-title="Knights"><img src="https://file.garden/ZpbncQeDJ0qCfni8/tl-blog%20use/banner-knights.webp"></a>
+  <!--
+  <a onclick="qESEventChoose('switchsong')" data-title="Switch"><img src="https://file.garden/ZpbncQeDJ0qCfni8/tl-blog%20use/banner-switch.webp"></a>
+  <a onclick="qESEventChoose('esupurisong')" data-title="Special for Princess!"><img src="https://file.garden/ZpbncQeDJ0qCfni8/tl-blog%20use/banner-esupuri.webp"></a>
+  -->
 <a onclick="qESEventChoose('othersong')" data-title="Other"><img class="idol" src="https://file.garden/ZpbncQeDJ0qCfni8/tl-blog%20use/banner-othersong.png"></a>
               </div>
               
@@ -183,17 +199,32 @@ $(document).ready(function () {
 <div id="othersong" style="display: none">
   <div id="otherch"></div>
 </div>
+<div id="finesong" style="display: none">
+  <div id="finech"></div>
+</div>
+<div id="crazybsong" style="display: none">
+  <div id="crazybch"></div>
+</div>
+<div id="esupurisong" style="display: none">
+  <div id="esupurich"></div>
+</div>
+<div id="undeadsong" style="display: none">
+  <div id="undeadch"></div>
+</div>
+<div id="switchsong" style="display: none">
+  <div id="switchch"></div>
+</div>
 
 <!--OTHER STORIES-->
 <div id="oshiroom" style="display: none">
   <div id="oshiroomch"></div>
 </div>
 
-<!--
-<div id="management" style="display: none">
-  <div id="managech"></div>
-</div>
--->
+  <!--
+  <div id="management" style="display: none">
+    <div id="managech"></div>
+  </div>
+  -->
 
 </div>
                                     
