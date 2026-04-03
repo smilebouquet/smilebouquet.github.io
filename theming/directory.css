@@ -450,6 +450,14 @@ ol.slcon li {
     text-align: left;
     }
 
+.artist {
+  margin: -2px auto;
+  padding-left: 0.3em;
+  padding-right: 0.3em;
+  font-size: 0.9em
+  font-style: italic;
+}
+
 .chb, .noch, .tlb, .notl {
     border-radius: 5px;
     margin-bottom: 0.3em;
