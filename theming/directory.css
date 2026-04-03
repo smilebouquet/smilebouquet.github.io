@@ -816,7 +816,18 @@ h1 a:hover {
   color: var(--medtl);
 }
 
-
+.hnks {
+  background-image: url(https://file.garden/ZpbncQeDJ0qCfni8/hnks.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: transparent;
+  position: fixed;
+  right: 100px;
+  z-index: 1000;
+  width: 120px;
+  height: auto;
+}
 
 
 
@@ -875,3 +886,6 @@ a, a img {
 }
 
 }
+
+.hnks {
+    
