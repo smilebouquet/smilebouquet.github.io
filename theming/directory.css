@@ -477,7 +477,7 @@ ol.slcon li {
     max-width: 100%;
     padding-left: 0.3em;
     padding-right: 0.3em;
-    margin-bottom: 0
+    margin: 0.2em auto;
     }
 
 .chb, .tlb {
