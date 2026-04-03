@@ -451,16 +451,15 @@ ol.slcon li {
     }
 
 .artist {
-  margin: -2px auto;
-  padding-left: 0.3em;
+  margin: -5px 0 0 0;
+  padding-left: 0.5em;
   padding-right: 0.3em;
-  font-size: 0.9em
+  font-size: 0.9em;
   font-style: italic;
 }
 
 .chb, .noch, .tlb, .notl {
     border-radius: 5px;
-    margin-bottom: 0.3em;
     padding: 0;
     }
 
@@ -470,6 +469,7 @@ ol.slcon li {
     text-align: center;
     margin-left: 0.1em;
     margin-right: 0.1em;
+    margin-bottom: 0.3em;
     }
 
 .tlb, .notl {
@@ -477,6 +477,7 @@ ol.slcon li {
     max-width: 100%;
     padding-left: 0.3em;
     padding-right: 0.3em;
+    margin-bottom: 0
     }
 
 .chb, .tlb {
