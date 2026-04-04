@@ -247,7 +247,7 @@ body {
   border-radius: 0px;
 }
 body {
-  --os-text-font: 20px/1.3 "Funnel Sans", sans-serif;
+  --os-text-font: 1.25em/1.3 "Funnel Sans", sans-serif;
 }
 .oissu img {
   max-width: 600px;
@@ -255,5 +255,32 @@ body {
 }
 }
 
+@media only screen and (max-width: 450px) {
+body {
+  background: transparent;
+  background-color: var(--light);
+}
+#chapters, {display:none;}
+#wrap {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin: 0;
+}
+#all {
+  width: 100%;
+  margin: 0;
+  padding: 10px 0px 40px 0px;
+  border-radius: 0px;
+}
+body {
+  --os-text-font: 1.1em/1.3 "Funnel Sans", sans-serif;
+}
+.oissu img {
+  max-width: 450px;
+  height: auto;
+}
+}
 
 .i, .en, .jp, #info, .chal, .synopsis, .syn, .ex, .chl, #pr, #idol, .albcov img {display:none;}
