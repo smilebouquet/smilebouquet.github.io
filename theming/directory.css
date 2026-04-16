@@ -616,8 +616,8 @@ ol.slcon li {
     left: 0% !important;
     width: calc(100% - 0.4em) !important;
     height: calc(100% - 0.4em) !important;
-    padding: 0.2em
-    border-radius: 0px;
+    padding: 0.2em !important;
+    border-radius: 0px !important;
 }
 
 #nav a:hover{
