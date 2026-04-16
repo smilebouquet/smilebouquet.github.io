@@ -405,7 +405,7 @@ table#idol .cha {
     line-height: 2em;
 }
 
-.synopsis:before, .chl:before, .ex {
+.synopsis:before, .chl:before, .bmu:before, .ex {
     font-size: 1.0em;
     color: var(--medtl);
     font-weight: bold;
@@ -419,6 +419,9 @@ table#idol .cha {
     content: "Chapter List";
 }
 
+.bmu:before {
+    content: "Bright Me Up!! Solos")
+
 .alb {
     background-color: var(--background);
     margin: 1em auto;
@@ -431,6 +434,7 @@ table#idol .cha {
 .albcov {
     max-width: 33%;
     font-family: 'Balsamiq Sans', display;
+    color: var(--medtl)
     text-align: center
 }
 
