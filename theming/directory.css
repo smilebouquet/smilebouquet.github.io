@@ -433,11 +433,15 @@ table#idol .cha {
     flex-wrap: wrap;
 }
 
+.albcov, .bmus {
+    max-width: 200px;
+    margin: 0.25em;
+}
+
 .albcov {
-    max-width: 30%;
     font-family: 'Balsamiq Sans', display;
     text-align: center;
-    padding: 0.25em;
+    line-height: 1.3em;
 }
 
 .sl {
