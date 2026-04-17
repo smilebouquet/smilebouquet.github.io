@@ -618,8 +618,8 @@ ol.slcon li {
 }
 
 [data-title$="Solo)"]:after {
-    top: 0%;
-    left: 0%;
+    top: 0% !important;
+    left: 0% !important;
     width: calc(100% - 0.4em);
     height: calc(100% - 0.4em);
     padding: 0.2em;
