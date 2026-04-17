@@ -438,7 +438,7 @@ table#idol .cha {
 }
 
 .albcov {
-    max-width: 200px;
+    max-width: 180px;
     font-family: 'Balsamiq Sans', display;
     text-align: center;
     line-height: 1.3em;
@@ -837,12 +837,12 @@ article {margin: 20px auto;}
 height: auto;
 }
 
-a, a img, .albcov .bmus {
+a, a img, .albcov {
     max-width: 145px
 }
 
-.bmus img {
-    max-width: 105px
+.bmus img, {
+    max-width: 105px;
 }
 
 [data-title$="Solo)"]:hover:after {
