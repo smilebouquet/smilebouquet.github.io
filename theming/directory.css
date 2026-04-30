@@ -193,23 +193,6 @@ body {
     scrollbar-color: rgba(204, 181, 181, .5) #f000;
     position: relative;
 }
-.q-esevent-side__wrapper > .watata {
-    position: absolute;
-    left: -60px;
-    bottom: 75px;
-    z-index: -1;
-    width: 100px;
-    height: auto;
-    transform: rotate(-45deg);
-}
-.q-esevent-side__wrapper > .yuutakun {
-    position: absolute;
-    left: 200px;
-    top: -87px;
-    z-index: -1;
-    width: 100px;
-    height: auto;
-}
 
 .q-esevent-side {
     padding: 0px 0.8em;
@@ -596,7 +579,7 @@ ol.slcon li {
   color: transparent;
 }
 
-[data-title]:hover:after,  {
+[data-title]:hover:after, .bmus:hover:after {
     opacity: 0.8;
     transition: 0.2s;
     visibility: visible;
@@ -634,13 +617,6 @@ ol.slcon li {
     border-radius: 0px;
     font-size: 0.9em;
     line-height: 1.1em;
-}
-
-#nav a:hover{
-background-color: var(--med);
-border-color: var(--background);
-color: var(--background);
-font-weight: normal;
 }
 
 @media only screen and (max-width: 720px) {
