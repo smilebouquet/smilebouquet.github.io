@@ -23,14 +23,6 @@ text-transform: capitalize;
     /*basic styling*/
     
 body {
-background-color: #8d7caa;
-background-image: url('https://64.media.tumblr.com/3d5b7e328717a20e6a90890857583ee7/tumblr_inline_t8igmaantm1qf8af3_500.png');
-background-repeat: repeat;
-background-size: auto;
-background-attachment: fixed;
-scrollbar-color: var(--med) transparent;
-cursor: var(--normcursor);
-
 font: 16px/1.5em "Funnel Sans";
 -webkit-font-smoothing: antialiased;
 color: var(--text);
@@ -183,15 +175,6 @@ body {
     transition: .3s;
     border: var(--borders);
     border-radius: 5px;
-}
-
-.q-esevent-side__wrapper {
-    flex: 1 1 27%;
-    max-width: 200px;
-    background: var(--q-tertiary-background);
-    transition: .3s;
-    scrollbar-color: rgba(204, 181, 181, .5) #f000;
-    position: relative;
 }
 
 .q-esevent-side {
