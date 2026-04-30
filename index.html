@@ -633,6 +633,28 @@ header {
     z-index:0;
 }
 
+/*--tl webring--*/
+@import url("/theming/theme.css");
+.tler {
+  display: inline-block;
+}
+
+a > img {
+  width: 95px;
+  margin: 2px;
+}
+
+.tippy-box[data-theme~='custom'] {
+background: #f6f6f6;
+color: #5a5a5a;
+text-align: center;
+font:var(--Caps-Font-Weight,normal) var(0.9rem)/var(--Caps-Line-Height,1.5) var(--Caps-Font-Family), sans-serif;
+text-transform:uppercase;
+border-radius: 5px;
+border: 1px solid #dccbe7;
+text-transform: capitalize;
+}
+
 /*----- BOXES :: HEADINGS -----*/
 .box-heading {
     position:relative;
@@ -1058,6 +1080,18 @@ iframe[dim-the-askbox="yes"]{
     <section class="box" full-width="yes">
         <h2 class="box-heading">
             <span>
+            Other Translators
+            </span>
+        </h2>
+        <div class="tler">
+          <a class= class href="https://southerngothics.neocities.org/es"><img src="https://southerngothics.neocities.org/loads/southerngothics.png" alt="southerngothics" width="90px"title="Ciel"></a>
+          </div>
+        </div><!--end box's contents-->    
+    </section><!--end a box-->
+	
+    <section class="box" full-width="yes">
+        <h2 class="box-heading">
+            <span>
             Additional Credits
             </span>
         </h2>
@@ -1092,6 +1126,25 @@ iframe[dim-the-askbox="yes"]{
 </main><!--end main-->
 </div><!--end page-cont-->
 
+    <script>
+    // tooltips
+    tippy('[title]', {
+      
+    theme: 'custom',
+    arrow: false,
+    followCursor: false,
+    delay: 50,
+    placement: 'bottom',
+    zIndex: 9999999999,
+    maxWidth: 200,
 
+    content(reference) {
+        const title = reference.getAttribute('title');
+        reference.removeAttribute('title');
+        return title;
+    },
+    });
+    </script>
+	
 </body>
 </html>
