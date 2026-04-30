@@ -184,6 +184,15 @@ body {
     mask-image: linear-gradient(transparent 0.8em, black 1.6em, black calc(90vh - 1.6em), transparent calc(90vh - 0.8em));
 }
 
+.q-esevent-side__wrapper {
+    flex: 1 1 27%;
+    max-width: 200px;
+    background: var(--q-tertiary-background);
+    transition: .3s;
+    scrollbar-color: rgba(204, 181, 181, .5) #f000;
+    position: relative;
+}
+
 .q-esevent-main__wrapper {
     flex: 1 1 77%;
     padding: 1em;
