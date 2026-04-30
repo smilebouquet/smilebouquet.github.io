@@ -294,7 +294,7 @@ body {
 .idol {
   border-radius: 3px;
   height: 50px;
-  width: auto;
+  width: 100%;
   object-fit: cover;
   object-position: 100% 15%;
 }
