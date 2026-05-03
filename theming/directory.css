@@ -239,6 +239,7 @@ body {
     font-style: italic;
     padding: 0.2em;
     transition: background 0.1s ease;
+    -webkit-max-width: 172px
 }
 .q-esevent-side a.active {
     background: var(--med);
@@ -587,7 +588,8 @@ ol.slcon li {
     border-radius: 3px;
     top: 3%;
     left: 1.5%;
-    width: 97%;
+    width: 97%;top: 3%;
+    -webkit-left: 1.5%;if
     height: 94%;
     text-align: center;
     align-content: center;
