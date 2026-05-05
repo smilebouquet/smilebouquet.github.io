@@ -1,47 +1,161 @@
 :root {
-	--eichi: #ffde33;
-	--wataru: #b8f4ff;
+	--eichi: #FFF3B8;
+	--wataru: #a1d8e2;
 	--tori: #F5B2B2;
-	--yuzuru: #a3c1ff;
-
-	--subaru: #F3981D;
-
-  --kanata: #008DB7;
+	--yuzuru: #3e62ad;
+	
+	--hokuto: #0068b7;
+	--subaru: #f3981d;
+	--makoto: #65ab31;
+	--mao: #941f57;
+	
+	--tetora: #302833;
+	--midori: #00533f;
 	--shinobu: #ffdc00;
+	--chiaki: #e60033;
+	--kanata: #008db7;
 	
-	--hiiro: #ba2636
-	--mayoi: #522f60
+	--hiiro: #ba2636;
+	--aira: #fff0Cf;
+	--mayoi: #522f60;
+	--tatsumi: #7ebea5;
 	
-	--hiyori: #b8d200
+	--nagisa: #a73836;
+	--hiyori: #b8d200;
+	--ibaba: #74325c;
+	--jun: #192f60;
 	
-	--shu: #e3acae;
-	--mika: #006a6c;
+	--shu: #E3ACAE;
+	--mika: #006A6C;
 
 	--hinata: #EB6EA0;
 	--yuuta: #00A1E9;
 
-  --rinne: #b7282e
-  --himeru: #89c3eb
-	--kohaku: #F4B3C2;
-	--niki: #507ea4
-
-	--rei: #47266E;
-	--kaoru: #FDD35C;
-	--koga: #C9CACA;
-	--adonis: #915DA3;
-
-	--tomoya: #e3c275;
-	--nazuna: #e1ca00;
-	--mitsuru: #ED6D35;
-	--hajime: #CBB8D9;
+	--rinne: #b7282e
+	--himeru: #89c3eb
+	--kohaku: #f4b3c2
+	--niki: #507ea5
 	
-	--tsukasa: #942343
-	--leo: #ec6d51
-	--izumi: #80c0ef
-	--ritsu: #001E43
-	--arashi: #dfc82b
+	--rei: #47266e;
+	--kaoru: #fdd35c;
+	--koga: #c9caca;
+	--adonis: #915da3;
 	
-	--natsume: #d70035
-	--sora: #e3d40b
-	--tsumugi: #00608d
+	--tomoya: #eedcb3;
+	--nazuna: #ffec47;
+	--mitsuru: #ed6d35;
+	--hajime: #cab8d9;
+	
+	--keito: #316745;
+	--kuro: #E83929;
+	--souma: #5654A2;
+	
+	--tsukasa:#942343;
+	--leo: #ec6d51;
+	--izumi: #73add7;
+	--ritsu: #001e43;
+	--arashi: #c9b426;
+	
+	--natsume: #D70035;
+	--mugi: #00608D;
+	--sora: #FFF352;
+	
+	--mama: #622D18;
+	
+	--esu: #80fff4;
+	--kanna: #baccb8;
+	--yume: #ccadd9;
+	--raika: #298c7c;
+	
+	--ibuki: #66BBCC;
 }
+
+span.eichi {color: var(--eichi);}
+span.wataru {color: var(--wataru);}
+span.tori {color: var(--tori);}
+span.yuzuru {color: var(--yuzuru);}
+
+span.hokuto {color: var(--hokuto);}
+span.subaru {color: var(--subaru);}
+span.makoto {color: var(--makoto);}
+span.mao {color: var(--mao);}
+
+span.tetora {color: var(--tetora);}
+span.midori {color: var(--midori);}
+span.shinobu {color: var(--shinobu);}
+span.chiaki {color: var(--chiaki);}
+span.kanata {color: var(--kanata);}
+
+span.hiiro {color: var(--hiiro);}
+span.aira {color: var(--aira);}
+span.mayoi {color: var(--mayoi);}
+span.tatsumi {color: var(--tatsumi);}
+
+span.nagisa {color: var(--nagisa);}
+span.hiyori {color: var(--hiyori);}
+span.ibaba {color: var(--ibaba);}
+span.jun {color: var(--jun);}
+
+span.shu {color: var(--shu);}
+span.mika {color: var(--mika);}
+
+span.hinata {color: var(--hinata);}
+span.yuuta {color: var(--yuuta);}
+
+span.rinne {color: var(--rinne);}
+span.himeru {color: var(--himeru);}
+span.kohaku {color: var(--kohaku);}
+span.niki {color: var(--niki);}
+
+span.rei {color: var(--rei);}
+span.kaoru {color: var(--kaoru);}
+span.koga {color: var(--koga);}
+span.adonis {color: var(--adonis);}
+
+span.tomoya {color: var(--tomoya);}
+span.nazuna {color: var(--nazuna);}
+span.mitsuru {color: var(--mitsuru);}
+span.hajime {color: var(--hajime);}
+
+span.keito {color: var(--keito);}
+span.kuro {color: var(--kuro);}
+span.souma {color: var(--souma);}
+
+span.tsukasa {color: var(--tsukasa);}
+span.leo {color: var(--leo);}
+span.izumi {color: var(--izumi);}
+span.ritsu {color: var(--ritsu);}
+span.arashi {color: var(--arashi);}
+
+span.natsume {color: var(--natsume);}
+span.mugi {color: var(--mugi);}
+span.sora {color: var(--sora);}
+
+span.mama {color: var(--mama)}
+
+span.esu {color: var(--esu);}
+span.kanna {color: var(--kanna);}
+span.yume {color: var(--yume);}
+span.raika {color: var(--raika);}
+
+span.ibuki {color: var(--ibuki);}
+
+/*
+.chara1-chara2 {
+	background: linear-gradient(to right, var(--chara1) 30%, var(--chara2) 70%); 
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+.chara1-chara2-chara3 {
+	background: linear-gradient(to right, var(--chara1) 20%, var(--chara2) 40% 60%, var(--chara3) 80%)); 
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+.chara1-chara2-chara3-chara4 {
+	background: linear-gradient(to right, var(--chara1) 16%, var(--chara2) 28% 44%, var(--chara3) 56% 72%, var(--chara4) 84%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+*/
