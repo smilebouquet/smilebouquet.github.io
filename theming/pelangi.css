@@ -146,13 +146,11 @@ span.ibuki {color: var(--ibuki);}
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
 }
-
 .chara1-chara2-chara3 {
 	background: linear-gradient(to right, var(--chara1) 20%, var(--chara2) 40% 60%, var(--chara3) 80%)); 
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
 }
-
 .chara1-chara2-chara3-chara4 {
 	background: linear-gradient(to right, var(--chara1) 16%, var(--chara2) 28% 44%, var(--chara3) 56% 72%, var(--chara4) 84%);
 	-webkit-background-clip: text;
