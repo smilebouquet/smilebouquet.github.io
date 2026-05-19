@@ -32,6 +32,7 @@
             $('#tsukasaidolch').load("tl/idol/tsukasa/toc.html");
            
             $('#finech').load("tl/song/fine-toc.html");
+            $('#edench').load("tl/song/eden-toc.html");
             $('#2winkch').load("tl/song/2wink-toc.html");
             $('#crazybch').load("tl/song/crazyb-toc.html");
             $('#undeadch').load("tl/song/undead-toc.html");
@@ -122,6 +123,7 @@ $(document).ready(function () {
               <h3>Song</h3>
               <div style="display: none">
 <a onclick="qESEventChoose('finesong')" data-title="fine"><img src="https://file.garden/ZpbncQeDJ0qCfni8/tl-blog%20use/banner-fine.webp"></a>
+<a onclick="qESEventChoose('edensong')" data-title="2wink"><img src="https://file.garden/ZpbncQeDJ0qCfni8/tl-blog%20use/banner-eden.png"></a>
 <a onclick="qESEventChoose('2winksong')" data-title="2wink"><img src="https://file.garden/ZpbncQeDJ0qCfni8/tl-blog%20use/banner-2wink.webp"></a>
 <a onclick="qESEventChoose('knightssong')" data-title="Knights"><img src="https://file.garden/ZpbncQeDJ0qCfni8/tl-blog%20use/banner-knights.webp"></a>
 <a onclick="qESEventChoose('esupurisong')" data-title="Special for Princess!"><img src="https://file.garden/ZpbncQeDJ0qCfni8/tl-blog%20use/banner-esupuri.png"></a>
@@ -187,6 +189,9 @@ $(document).ready(function () {
 <div id="finesong" style="display: none">
   <div id="finech"></div>
 </div>
+<div id="edensong" style="display: none">
+  <div id="edench"></div>
+</div>
 <div id="2winksong" style="display: none">
   <div id="2winkch"></div>
 </div>
@@ -227,7 +232,6 @@ $(document).ready(function () {
 <!--end of main container-->
 
     <script>
-
     // tooltips
     tippy('[title]', {
     theme: 'custom',
