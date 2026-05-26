@@ -354,9 +354,9 @@ table#idol th {
   text-align: left;
   vertical-align: bottom;
 }
-table#idol .cha {
-  height: 37px;
-}
+table#idol span.en {font-size: 1.15em !important;}
+table#idol span.jp {font-size: 0.9em !important;}
+table#idol .cha {height: 37px;}
 
 .syn {
     background-color: var(--background);
@@ -387,13 +387,9 @@ table#idol .cha {
     font-weight: bold;
 }
 
-.synopsis:before {
-    content: "Synopsis";
-}
+.synopsis:before {content: "Synopsis";}
 
-.chl:before {
-    content: "Chapter List";
-}
+.chl:before {content: "Chapter List";}
 
 .alb, .bmuli {
     background-color: var(--background);
@@ -403,43 +399,31 @@ table#idol .cha {
     display: flex;
     padding: 0.25em;
 }
-
 .bmuli {
     margin-top: 0;
     flex-wrap: wrap;
 }
-
-.albcov, .bmus {
-    margin: 0.25em;
-}
-
+.albcov, .bmus {margin: 0.25em;}
 .albcov {
     max-width: 180px;
     font-family: 'Balsamiq Sans', display;
     text-align: center;
     line-height: 1.3em;
 }
-
-.bmus {
-    max-width: calc(25% - 2.3em);
-}
-
+.bmus {max-width: calc(25% - 2.3em);}
 .sl {
     width: 100%;
     text-align: left;
     margin: 0.25em;
     }
-
 ol.slcon {
     margin-top: 0px;
     padding-left: 30px;
 }
-
 ol.slcon li {
     list-style-type: decimal-leading-zero;
     text-align: left;
     }
-
 .artist {
   margin: -5px 0 0 0;
   padding-left: 0.5em;
